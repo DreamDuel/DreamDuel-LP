@@ -8,7 +8,7 @@
   },
   "hero": {
     "badge": "IA Generativa",
-    "title": "Genera Imágenes Increíbles con Inteligencia Artificial",
+    "title": "Genera imágenes con IA",
     "subtitleHighlight": "Tu primera imagen es completamente GRATIS 🎁",
     "subtitle": "Luego, solo $1 por cada imagen que generes",
     "description": "Crea cualquier tipo de imagen con IA: arte, ilustraciones, fotografías, contenido +18 sin censura. Sin suscripciones, sin límites, sin marcas de agua.",
@@ -29,7 +29,7 @@
         "number": "2",
         "icon": "⚡",
         "title": "La IA genera tu imagen",
-        "description": "Nuestra inteligencia artificial crea tu imagen en segundos. Tu primera generación es 100% gratis. Las siguientes cuestan solo $1 cada una."
+        "description": "Nuestra inteligencia artificial crea tu imagen en segundos. Tu primera generación es 100% gratis. Las siguientes cuestan solo $1 cada generación."
       },
       {
         "number": "3",
@@ -71,7 +71,7 @@
       {
         "icon": "🎁",
         "title": "Primera Imagen Completamente GRATIS",
-        "description": "Prueba nuestro generador sin compromiso. Solo regístrate y genera tu primera imagen. No pedimos tarjeta de crédito."
+        "description": "Prueba nuestro generador sin compromiso. Solo regístrate y genera tu primera imagen completamente gratis."
       },
       {
         "icon": "💵",
@@ -116,7 +116,7 @@
       "Procesamiento seguro con PayPal"
     ],
     "cta": "Empezar Gratis Ahora",
-    "disclaimer": "No se requiere tarjeta de crédito para tu primera imagen"
+    "disclaimer": "Tu primera imagen es 100% gratis"
   },
   "testimonials": {
     "title": "Lo que dicen nuestros usuarios",
@@ -140,7 +140,7 @@
         "name": "Ana López",
         "role": "Creadora de Contenido",
         "avatar": "👩‍🎨",
-        "text": "Simple, directo y sin complicaciones. Pago solo lo que uso. La descarga automática es genial porque no tengo que preocuparme por almacenamiento.",
+        "text": "Me gusta la libertad y lo 0 censura que me ofrece. Puedo crear cualquier tipo de imagen sin restricciones. Perfecto para mi trabajo.",
         "rating": 5
       }
     ]
@@ -151,7 +151,7 @@
     "items": [
       {
         "question": "¿La primera imagen es realmente gratis?",
-        "answer": "Sí, completamente gratis. Solo necesitas crear una cuenta y podrás generar tu primera imagen sin ningún costo. No pedimos tarjeta de crédito para la imagen gratuita."
+        "answer": "Sí, completamente gratis. Solo necesitas crear una cuenta y podrás generar tu primera imagen sin ningún costo."
       },
       {
         "question": "¿Cuánto cuestan las imágenes después de la primera?",
@@ -215,7 +215,69 @@
     "title": "¿Listo para crear tu primera imagen?",
     "subtitle": "Es gratis, es rápido, es increíble",
     "cta": "Generar Mi Primera Imagen Gratis",
-    "disclaimer": "No se requiere tarjeta de crédito • 100% gratis"
+    "disclaimer": "Primera imagen 100% gratis"
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar DreamDuel, aceptas estar sujeto a estos Términos y Condiciones. Si no estás de acuerdo con alguna parte de estos términos, no deberás utilizar nuestro servicio."
+      },
+      {
+        "heading": "2. Descripción del Servicio",
+        "content": "DreamDuel es un servicio de generación de imágenes mediante inteligencia artificial. Los usuarios pagan $1 por cada imagen generada y la descargan directamente. No almacenamos las imágenes generadas en nuestros servidores. Nos reservamos el derecho de modificar o discontinuar el servicio en cualquier momento."
+      },
+      {
+        "heading": "3. Cuenta de Usuario",
+        "content": "Eres responsable de mantener la confidencialidad de tu cuenta y contraseña. Aceptas la responsabilidad de todas las actividades que ocurran bajo tu cuenta. Debes ser mayor de 13 años para usar este servicio."
+      },
+      {
+        "heading": "4. Imágenes Generadas y Derechos",
+        "content": "Las imágenes generadas mediante nuestro servicio son descargadas directamente por ti y no se almacenan en nuestros servidores. Conservas todos los derechos sobre las imágenes que generes y descargues. Eres responsable del uso que hagas de las imágenes generadas y debes asegurarte de no infringir derechos de terceros."
+      },
+      {
+        "heading": "5. Conducta Prohibida",
+        "content": "No debes usar DreamDuel para generar contenido ilegal, ofensivo, acosador, violento, pornográfico o que infrinja los derechos de terceros. Nos reservamos el derecho de suspender o cancelar cuentas que violen estos términos. El uso del servicio debe cumplir con todas las leyes aplicables."
+      },
+      {
+        "heading": "6. Propiedad Intelectual",
+        "content": "Todo el contenido, características y funcionalidad del servicio son propiedad exclusiva de DreamDuel y están protegidos por derechos de autor, marcas registradas y otras leyes de propiedad intelectual."
+      },
+      {
+        "heading": "7. Limitación de Responsabilidad",
+        "content": "DreamDuel se proporciona \"tal cual\" sin garantías de ningún tipo. No seremos responsables de daños indirectos, incidentales o consecuentes que resulten del uso o la imposibilidad de usar el servicio."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "sections": [
+      {
+        "heading": "1. Información que Recopilamos",
+        "content": "Recopilamos información que nos proporcionas directamente, como tu nombre y correo electrónico. No almacenamos las imágenes que generas, ya que se descargan directamente a tu dispositivo. También recopilamos información automáticamente sobre tu uso del servicio, incluyendo dirección IP, tipo de navegador y páginas visitadas."
+      },
+      {
+        "heading": "2. Uso de la Información",
+        "content": "Utilizamos tu información para proporcionar y mantener el servicio de generación de imágenes, procesar pagos a través de PayPal, enviarte confirmaciones de transacciones, mejorar nuestro servicio y proteger la seguridad de la plataforma. No utilizamos las imágenes que generas para ningún propósito ya que no las almacenamos."
+      },
+      {
+        "heading": "3. Compartir Información",
+        "content": "No vendemos tu información personal. Podemos compartir tu información con proveedores de servicios que nos ayudan a operar la plataforma, cuando la ley lo requiera, o con tu consentimiento."
+      },
+      {
+        "heading": "4. Cookies y Tecnologías Similares",
+        "content": "Utilizamos cookies y tecnologías similares para recordar tus preferencias, entender cómo usas el servicio y mejorar tu experiencia. Puedes configurar tu navegador para rechazar cookies, pero esto puede afectar la funcionalidad del servicio."
+      },
+      {
+        "heading": "5. Seguridad de los Datos",
+        "content": "Implementamos medidas de seguridad técnicas y organizativas para proteger tu información personal. Sin embargo, ningún método de transmisión por Internet es 100% seguro, por lo que no podemos garantizar seguridad absoluta."
+      },
+      {
+        "heading": "6. Tus Derechos",
+        "content": "Tienes derecho a acceder, corregir, eliminar o transferir tu información personal. También puedes oponerte al procesamiento de tus datos o solicitar la limitación del mismo. Contáctanos para ejercer estos derechos."
+      }
+    ]
   },
   "footer": {
     "tagline": "Crea imágenes increíbles con inteligencia artificial",
@@ -225,8 +287,8 @@
     "faq": "FAQ",
     "community": "Comunidad",
     "legal": "Legal",
-    "privacy": "Privacidad",
-    "terms": "Términos",
+    "privacy": "Políticas de Privacidad",
+    "terms": "Términos y Condiciones",
     "contact": "Contacto",
     "support": "Soporte",
     "email": "support@dreamduel.com",
