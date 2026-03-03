@@ -12,7 +12,7 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary-glow to-accent-hot;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-primary-glow to-accent-hot;
   }
   
   .glow-primary {
