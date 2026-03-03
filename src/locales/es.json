@@ -1,289 +1,237 @@
 {
   "navbar": {
     "home": "Inicio",
-    "about": "Nosotros",
-    "generator": "Generador",
+    "howItWorks": "Cómo Funciona",
     "features": "Características",
-    "pricing": "Planes",
-    "testimonials": "Testimonios",
-    "waitlist": "Waitlist"
-  },
-  "about": {
-    "badge": "Nuestra Misión",
-    "title": "Convertimos tus Fantasías en Realidad",
-    "subtitle": "Somos una startup dedicada a mejorar constantemente para ofrecerte la mejor experiencia",
-    "description": "DreamDuel nace de una visión simple: hacer que materializar tus fantasías sea fácil, privado y cada vez mejor. No somos solo una plataforma más – somos un equipo comprometido con mejorar tu experiencia cada día. Cada suscripción nos ayuda a mejorar nuestros modelos para crear contenido más realista y personalizado.",
-    "mission": {
-      "title": "Tu Suscripción Mejora el Servicio",
-      "description": "Cada usuario Premium nos permite invertir en mejorar la plataforma. Tus fantasías de hoy son mejores que hace 3 meses, y en 3 meses serán aún mejores. Mejoramos constantemente la calidad, velocidad y personalización del contenido que generas."
-    },
-    "values": [
-      {
-        "title": "Mejora Continua",
-        "description": "Trabajamos constantemente para mejorar la calidad de tus creaciones. Cada actualización trae mejor realismo, más opciones y resultados más impresionantes. Tu experiencia mejora con cada versión.",
-        "icon": "🚀"
-      },
-      {
-        "title": "Escuchamos tu Feedback",
-        "description": "Tu opinión moldea el producto. Cada sugerencia, cada comentario nos ayuda a mejorar. Las funciones que lanzamos son las que tú pides. Tu voz importa aquí.",
-        "icon": "⚡"
-      },
-      {
-        "title": "Privacidad Total",
-        "description": "Tus fantasías son tuyas y solo tuyas. Máxima seguridad, cero acceso a tu contenido, encriptación completa. Lo que creas aquí permanece privado para siempre.",
-        "icon": "🔒"
-      },
-      {
-        "title": "Contenido Cada Vez Mejor",
-        "description": "Cada suscripción nos permite mejorar nuestros modelos. Más realismo, mejor personalización, resultados más rápidos. Inviertes en Premium, nosotros invertimos en calidad.",
-        "icon": "🎯"
-      }
-    ],
-    "stats": [
-      {
-        "number": "90%",
-        "label": "Satisfacción"
-      },
-      {
-        "number": "24/7",
-        "label": "Soporte Activo"
-      }
-    ],
-    "journey": {
-      "title": "Nuestro Compromiso Contigo",
-      "description": "Comenzamos con una idea simple: crear la mejor plataforma para materializar fantasías. Hoy miles de usuarios confían en nosotros. Cada día trabajamos para mejorar tu experiencia. Cada suscripción nos ayuda a ofrecer mejor calidad, más funciones y resultados más impresionantes. Creemos que el mejor producto habla por sí solo."
-    },
-    "cta": "Únete a Nuestra Comunidad",
-    "ctaSubtitle": "Sé parte de la revolución de IA que está cambiando cómo creamos contenido adulto personalizado"
+    "pricing": "Precios",
+    "faq": "FAQ"
   },
   "hero": {
-    "badge": "Fantasías → Realidad",
-    "title": "Tus Fantasías, Realidad Tangible",
-    "subtitle": "Convierte fantasías simples en historias visuales con IA. Solo describe personas, temática y contexto - la IA crea el resto.",
-    "cta": "Probar Generador de Imágenes Gratis",
-    "noLimits": "Sin límites",
-    "privacyGuaranteed": "Privacidad garantizada"
+    "badge": "IA Generativa",
+    "title": "Genera Imágenes Increíbles con Inteligencia Artificial",
+    "subtitleHighlight": "Tu primera imagen es completamente GRATIS 🎁",
+    "subtitle": "Luego, solo $1 por cada imagen que generes",
+    "description": "Crea cualquier tipo de imagen con IA: arte, ilustraciones, fotografías, contenido +18 sin censura. Sin suscripciones, sin límites, sin marcas de agua.",
+    "ctaPrimary": "Generar Mi Primera Imagen Gratis",
+    "ctaSecondary": "Ver Cómo Funciona"
   },
-  "ageVerification": {
-    "title": "Verificación de Edad",
-    "message": "DreamDuel materializa fantasías intensas y personales con contenido para adultos. Algunos escenarios incluyen temáticas de venganza, lujuria y poder sin censura. Debes ser mayor de 18 años para continuar.",
-    "confirm": "Soy mayor de 18 años",
-    "decline": "Salir",
-    "disclaimer": "Al continuar, confirmas que eres mayor de edad en tu jurisdicción y aceptas contenido NSFW."
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Tres pasos simples para crear imágenes increíbles",
+    "steps": [
+      {
+        "number": "1",
+        "icon": "📝",
+        "title": "Describe tu imagen",
+        "description": "Escribe lo que quieres crear: retratos, paisajes, arte abstracto, ilustraciones, contenido +18 sin censura. Cualquier cosa que imagines, sin restricciones."
+      },
+      {
+        "number": "2",
+        "icon": "⚡",
+        "title": "La IA genera tu imagen",
+        "description": "Nuestra inteligencia artificial crea tu imagen en segundos. Tu primera generación es 100% gratis. Las siguientes cuestan solo $1 cada una."
+      },
+      {
+        "number": "3",
+        "icon": "⬇️",
+        "title": "Descarga inmediata",
+        "description": "Tu imagen se descarga directamente a tu dispositivo. No la almacenamos en nuestros servidores para proteger tu privacidad."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Mira lo que puedes crear",
+    "subtitle": "Estos son ejemplos reales generados por nuestra IA",
+    "note": "Y esto es solo el comienzo. Tu imaginación es el límite.",
+    "examples": [
+      {
+        "prompt": "Retrato realista de una mujer en un jardín al atardecer"
+      },
+      {
+        "prompt": "Paisaje montañoso con lago cristalino y cielo estrellado"
+      },
+      {
+        "prompt": "Personaje anime estilo Studio Ghibli en bosque mágico"
+      },
+      {
+        "prompt": "Arte abstracto con colores vibrantes y formas geométricas"
+      },
+      {
+        "prompt": "Fotografía profesional de ciudad futurista de noche"
+      },
+      {
+        "prompt": "Ilustración digital de dragón volando sobre castillo medieval"
+      }
+    ]
   },
   "features": {
-    "title": "Convierte Fantasías en Realidad con IA",
-    "subtitle": "Inputs mínimos para máxima facilidad - Escenarios intensos personales",
-    "cta": "Comenzar Ahora",
-    "ctaQuestion": "¿Listo para materializar tu primera fantasía?",
+    "title": "Todo lo que necesitas para crear",
+    "subtitle": "Simple, rápido y sin sorpresas",
     "items": [
       {
-        "title": "Sin Prompts Complejos",
-        "description": "Solo ingresa: personas (Ana, Pedro), temática (venganza, lujuria, romance) y contexto (oficina). La IA automáticamente expande a historia completa con escenas, personajes detallados y diálogos emocionales."
+        "icon": "🎁",
+        "title": "Primera Imagen Completamente GRATIS",
+        "description": "Prueba nuestro generador sin compromiso. Solo regístrate y genera tu primera imagen. No pedimos tarjeta de crédito."
       },
       {
-        "title": "Generación Visual Inmediata",
-        "description": "Cada escena incluye imágenes consistentes y animaciones sutiles. De fantasía imaginada a 5-10 paneles visuales con personajes coherentes. Contenido sin censura para adultos."
+        "icon": "💵",
+        "title": "Solo $1 por Imagen",
+        "description": "Sin suscripciones mensuales, sin paquetes confusos, sin cargos ocultos. Pagas solo cuando generas una imagen."
       },
       {
-        "title": "Privacidad Total Garantizada",
-        "description": "Tus fantasías más íntimas permanecen privadas. Encriptación de extremo a extremo y control absoluto sobre tu contenido. Nadie más ve tus creaciones a menos que tú decidas compartir."
+        "icon": "⬇️",
+        "title": "Descarga Inmediata y Privada",
+        "description": "Tu imagen se descarga automáticamente a tu dispositivo. No la guardamos en nuestros servidores para garantizar tu privacidad."
       },
       {
-        "title": "Personalización con Nombres Reales",
-        "description": "Usa nombres de personas reales o avatares personalizados para máxima inmersión. Fantasías oscuras e íntimas: venganza, lujuria, poder. Todo lo que imagines, hecho tangible."
+        "icon": "✨",
+        "title": "Generación en Alta Resolución",
+        "description": "Imágenes de alta calidad generadas con los mejores modelos de inteligencia artificial disponibles."
       },
       {
-        "title": "Exporta y Comparte",
-        "description": "Descarga en PDF, video corto o historia interactiva. Ajustes rápidos con botones: 'más intensa', 'estilo anime', 'cambiar personaje'. Preview interactivo antes de exportar."
+        "icon": "🚀",
+        "title": "Rápido y Súper Simple",
+        "description": "Describe lo que quieres, genera en segundos, descarga. Sin complicaciones. Así de fácil."
       },
       {
-        "title": "Gana Premium Compartiendo",
-        "description": "Invita a un amigo y ambos ganan: tú recibes 2 semanas de Premium gratis por cada referido exitoso. Tu amigo obtiene 15% de descuento en su primera suscripción. Comparte fantasías, multiplica beneficios."
+        "icon": "🔒",
+        "title": "Pago 100% Seguro",
+        "description": "Procesamos todos los pagos a través de PayPal. Tu información financiera está completamente protegida."
       }
     ]
   },
   "pricing": {
-    "title": "Elige tu Plan de Fantasías",
-    "subtitle": "Comienza gratis y desbloquea escenarios ilimitados",
-    "guarantee": "¿Tienes dudas? Todos los planes incluyen garantía de 7 días",
-    "free": {
-      "name": "Free",
-      "price": "0",
-      "currency": "$",
-      "period": "/mes",
-      "features": [
-        "3 créditos cada 12 horas",
-        "Temáticas Limitadas",
-        "3 escenas por historia",
-        "2 personajes personalizados con imagen",
-        "Soporte email/discord"
-      ],
-      "cta": "Comenzar Gratis"
-    },
-    "premium": {
-      "name": "Premium",
-      "price": "15",
-      "currency": "$",
-      "period": "/mes",
-      "popular": "Más Popular",
-      "features": [
-        "NSFW completo sin censura",
-        "8-10 escenas por historia",
-        "10 personajes guardados con nombres reales (máximo)",
-        "10 créditos de generación de historias con imágenes por día",
-        "5 créditos de generación de imágenes por día",
-        "Ajustes rápidos ('más intensa', 'estilo anime')",
-        "Soporte prioritario 24/7"
-      ],
-      "cta": "Desbloquear Premium",
-      "cancelPolicy": "🔒 Cancela cuando quieras. Sin compromisos."
-    }
-  },
-  "characters": {
-    "title": "Arquetipos para tus Fantasías",
-    "types": ["Venganza 🔥", "Lujuria 💋", "Poder 👑", "Romance 🌹", "Oscuro 🌙", "Intenso ⚡", "Dominante 💎", "Misterioso 🔮"],
-    "descriptions": [
-      "¿Qué miras? No es que me importe...",
-      "Haz lo que te diga y seremos felices.",
-      "S-si quieres... podemos pasar tiempo juntos...",
-      "Tengo secretos que solo tú conocerás.",
-      "¡Vamos a crear nuestra propia aventura!",
-      "Analicemos esto juntos... en privado.",
-      "No sigo reglas. ¿Y tú?",
-      "La perfección tiene un precio... que pagarás."
-    ]
-  },
-  "waitlist": {
-    "badge": "¡Oferta Limitada!",
-    "title": "Únete a la Revolución de IA",
-    "subtitle": "Las primeras 1000 personas que se registren obtendrán 1 mes de Premium completamente GRATIS. ¡No te quedes fuera!",
-    "emailPlaceholder": "tu@email.com",
-    "ctaButton": "Unirme a la Waitlist",
-    "successTitle": "¡Bienvenido a la Waitlist! 🎉",
-    "successMessage": "Te enviaremos un email cuando estemos listos. Prepárate para convertir tus fantasías en realidad.",
-    "loading": "Guardando...",
-    "disclaimer": "Únete a miles de usuarios esperando el lanzamiento. Sin spam, solo actualizaciones importantes.",
-    "errorEmail": "Por favor ingresa tu email",
-    "errorInvalidEmail": "Por favor ingresa un email válido",
-    "freeAccess": "Gratis por tiempo limitado",
-    "priorityAccess": "Acceso prioritario",
-    "stats": {
-      "users": "Personas Interesadas",
-      "waitTime": "Lanzamiento Feb 2026"
-    }
-  },
-  "simulator": {
-    "badge": "Generador de Fantasías",
-    "title": "Generador de Fantasías Instantáneo",
-    "subtitle": "Input simple → Fantasía tangible. Solo describe personas, temática y contexto",
-    "placeholder": "Ejemplo simple: 'Ana, jefe, lujuria, oficina' o 'Carlos, venganza, hotel'",
-    "generate": "Generar Fantasía ✨",
-    "result": "Tu fantasía: ",
-    "continueStory": "Más Intensa 🔥",
-    "generateAnother": "Nueva Fantasía ✨",
-    "ctaButton": "¿Quieres darle vida a este personaje? Crea una historia sobre él con IA ahora",
-    "inputLabel": "Describe tu fantasía (personas, temática, contexto)",
-    "generating": "Creando tu realidad...",
-    "chatMode": "Modo Rápido"
-  },
-  "showcase": {
-    "title": "Ejemplos de Fantasías Materializadas",
-    "subtitle": "Descubre cómo otros han convertido sus escenarios intensos en realidad",
-    "scrollHint": "Explora las posibilidades",
-    "scenarios": [
-      {
-        "title": "Venganza Corporativa",
-        "description": "María ingresó: 'yo, ex-jefe, venganza sexual, ascenso corporativo'. DREAMDUEL generó 8 paneles donde seduce y domina a su antiguo jefe, estilo anime oscuro con diálogos cargados de tensión sexual y poder. ¿Quién es tu objetivo de venganza?"
-      },
-      {
-        "title": "Lujuria en la Oficina",
-        "description": "Carlos creó: 'Ana, Pedro, lujuria, sala de juntas'. Obtuvo una historia de 6 escenas con imágenes consistentes y animaciones sutiles. Fantasía que imaginó, ahora tangible. ¿Qué escenario imaginas?"
-      },
-      {
-        "title": "Poder y Seducción",
-        "description": "Laura transformó su fantasía: 'jefe, compañera, dominación, poder corporativo'. La IA expandió automáticamente a historia completa con personajes detallados. Sin prompts complejos, solo personas + temática + contexto."
-      },
-      {
-        "title": "Romance Oscuro",
-        "description": "Diego simplemente escribió: 'vecina, profesor, romance oscuro, barrio nocturno'. DREAMDUEL creó cómic de 10 paneles con narrativa emocional profunda. Usa nombres reales o ficticios para máxima inmersión."
-      },
-      {
-        "title": "Fantasía Prohibida",
-        "description": "Sofía materializó lo inimaginable: 'expareja, amigo cercano, venganza lujuriosa, reunión'. Exportó como video corto con ajustes rápidos ('más intensa', 'estilo realista'). Todo lo que imaginas, sin censura."
-      },
-      {
-        "title": "Escenario Intenso Personalizado",
-        "description": "Roberto usó: 'compañero trabajo, amiga universidad, lujuria, viaje negocios'. Preview interactivo le permitió ajustar detalles antes de generar. Contenido NSFW completo en plan Premium. ¿Listo para tu fantasía?"
-      }
-    ]
-  },
-  "characterCarousel": {
-    "meetButton": "Conocer a {name} 💕",
-    "subtitle": "Cada una espera por ti... ¿A quién elegirás?"
+    "badge": "PRECIO ÚNICO",
+    "title": "Sin Suscripciones. Sin Sorpresas.",
+    "subtitle": "Paga solo por lo que usas",
+    "price": "$1",
+    "period": "por imagen",
+    "freeHighlight": "PRIMERA IMAGEN GRATIS 🎁",
+    "benefits": [
+      "Generación en alta calidad",
+      "Sin suscripciones mensuales",
+      "Descarga inmediata",
+      "No se almacena en servidores",
+      "Pago único por imagen",
+      "Procesamiento seguro con PayPal"
+    ],
+    "cta": "Empezar Gratis Ahora",
+    "disclaimer": "No se requiere tarjeta de crédito para tu primera imagen"
   },
   "testimonials": {
-    "title": "Lo que Dicen Nuestros Usuarios",
-    "subtitle": "Creadores reales materializando sus fantasías",
+    "title": "Lo que dicen nuestros usuarios",
+    "subtitle": "Miles de personas ya están creando con DreamDuel",
     "items": [
       {
-        "text": "Escribí 'mi jefa, yo, venganza sexual, oficina' y tenía 8 escenas BRUTALES. La calidad es insana, parece cómic profesional posta.",
-        "author": "Alex R.",
-        "role": "Usuario Premium"
+        "name": "María González",
+        "role": "Diseñadora Gráfica",
+        "avatar": "👩‍💼",
+        "text": "Perfecto para generar mockups y conceptos visuales rápidamente. El precio de $1 por imagen es súper justo comparado con otras herramientas. Ya no necesito suscripciones caras mensuales.",
+        "rating": 5
       },
       {
-        "text": "No necesité escribir prompts complicados. Solo nombres + temática + lugar y la IA hizo TODO. Exporté a video y quedó perfecto.",
-        "author": "Diego S.",
-        "role": "Creador de Contenido"
+        "name": "Carlos Rodríguez",
+        "role": "Emprendedor Digital",
+        "avatar": "👨‍💻",
+        "text": "La primera imagen gratis me convenció al instante. Ahora genero todas las imágenes para mis redes sociales aquí. Rápido, barato y de excelente calidad.",
+        "rating": 5
       },
       {
-        "text": "Materialícé una fantasía que tenía años en mi cabeza. DREAMDUEL la hizo realidad tangible con personajes consistentes y diálogos intensos. Esto es otro level.",
-        "author": "Luna G.",
-        "role": "Artista Digital"
-      },
-      {
-        "text": "Pensaba que era raro tener estas fantasías... turns out un montón de gente las materializa aquí. La privacidad es real y el contenido NSFW sin censura 🔥",
-        "author": "Sofia M.",
-        "role": "Diseñadora"
-      },
-      {
-        "text": "'María, Pedro, lujuria, sala juntas' → historia completa en segundos. Los ajustes rápidos ('más intensa', 'estilo anime') son geniales.",
-        "author": "Carlos V.",
-        "role": "Escritor"
-      },
-      {
-        "text": "Usé nombres reales de conocidos y la inmersión es MÁXIMA. Obviamente todo privado. Vale cada centavo del Premium.",
-        "author": "Andrea K.",
-        "role": "Fotógrafa"
-      },
-      {
-        "text": "Probé el plan Free (3 fantasías/mes) y a la semana ya había pagado Premium. Escenarios ilimitados + NSFW completo = worth it.",
-        "author": "Roberto L.",
-        "role": "Usuario Premium"
-      },
-      {
-        "text": "Input simple, output increíble. De fantasía en mi mente a 10 paneles visuales. La IA expande todo automáticamente.",
-        "author": "Javier P.",
-        "role": "Beta Tester"
+        "name": "Ana López",
+        "role": "Creadora de Contenido",
+        "avatar": "👩‍🎨",
+        "text": "Simple, directo y sin complicaciones. Pago solo lo que uso. La descarga automática es genial porque no tengo que preocuparme por almacenamiento.",
+        "rating": 5
       }
     ]
   },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber",
+    "items": [
+      {
+        "question": "¿La primera imagen es realmente gratis?",
+        "answer": "Sí, completamente gratis. Solo necesitas crear una cuenta y podrás generar tu primera imagen sin ningún costo. No pedimos tarjeta de crédito para la imagen gratuita."
+      },
+      {
+        "question": "¿Cuánto cuestan las imágenes después de la primera?",
+        "answer": "Cada imagen adicional cuesta exactamente $1.00 USD. No hay paquetes, no hay suscripciones, solo $1 por imagen que generes."
+      },
+      {
+        "question": "¿Cómo realizo el pago?",
+        "answer": "Aceptamos pagos a través de PayPal. Es seguro, rápido y confiable. Puedes pagar con tu cuenta PayPal o con tarjeta de crédito a través de PayPal."
+      },
+      {
+        "question": "¿Guardan mis imágenes en sus servidores?",
+        "answer": "No. Las imágenes se generan y se descargan directamente a tu dispositivo. No almacenamos las imágenes en nuestros servidores para proteger tu privacidad y ahorrar costos."
+      },
+      {
+        "question": "¿Cuántas imágenes puedo generar?",
+        "answer": "Puedes generar todas las imágenes que necesites. Tu primera imagen es gratis, y cada una después cuesta $1. No hay límites."
+      },
+      {
+        "question": "¿Qué pasa si no me gusta la imagen que genera la IA?",
+        "answer": "Ofrecemos reembolso completo dentro de las primeras 24 horas si hay algún problema técnico con la generación de tu imagen."
+      },
+      {
+        "question": "¿Qué tipo de imágenes puedo generar?",
+        "answer": "Puedes crear cualquier tipo de imagen: retratos realistas, paisajes, arte abstracto, ilustraciones anime, fotografía profesional, contenido +18 sin censura, y mucho más. Sin restricciones ni límites."
+      },
+      {
+        "question": "¿Cuánto tiempo tarda en generarse una imagen?",
+        "answer": "Entre 3 y 5 segundos en promedio. La generación es casi instantánea y la descarga es inmediata."
+      }
+    ]
+  },
+  "trustBadges": {
+    "items": [
+      {
+        "icon": "🔒",
+        "text": "Pago 100% seguro con PayPal"
+      },
+      {
+        "icon": "✓",
+        "text": "Sin suscripciones mensuales"
+      },
+      {
+        "icon": "⚡",
+        "text": "Generación en 3-5 segundos"
+      },
+      {
+        "icon": "🎁",
+        "text": "Primera imagen gratis"
+      },
+      {
+        "icon": "💳",
+        "text": "Solo $1 por imagen"
+      },
+      {
+        "icon": "📱",
+        "text": "Compatible móvil y escritorio"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "¿Listo para crear tu primera imagen?",
+    "subtitle": "Es gratis, es rápido, es increíble",
+    "cta": "Generar Mi Primera Imagen Gratis",
+    "disclaimer": "No se requiere tarjeta de crédito • 100% gratis"
+  },
   "footer": {
-    "tagline": "Donde tus fantasías se vuelven tangibles",
-    "downloadApp": "Descargar App",
-    "downloadOn": "Descargar en",
-    "appStore": "App Store",
-    "googlePlay": "Google Play",
-    "contentWarning": "Contenido +18 • Privacidad garantizada",
+    "tagline": "Crea imágenes increíbles con inteligencia artificial",
+    "product": "Producto",
+    "pricing": "Precios",
+    "howItWorks": "Cómo Funciona",
+    "faq": "FAQ",
     "community": "Comunidad",
     "legal": "Legal",
     "privacy": "Privacidad",
     "terms": "Términos",
     "contact": "Contacto",
+    "support": "Soporte",
+    "email": "support@dreamduel.com",
     "madeWith": "Hecho con",
-    "by": "por el Equipo DreamDuel",
-    "warning": "Advertencia:",
-    "disclaimer": "Este sitio contiene contenido generado por IA destinado exclusivamente a adultos mayores de 18 años. Todo el contenido es ficticio. Respetamos la privacidad y promovemos el uso responsable de la tecnología.",
-    "copyright": "© 2025 DreamDuel. Todos los derechos reservados."
+    "by": "por el equipo de DreamDuel",
+    "copyright": "© 2026 DreamDuel. Todos los derechos reservados."
   }
 }

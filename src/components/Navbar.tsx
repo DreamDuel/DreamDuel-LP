@@ -9,11 +9,10 @@ import LanguageSwitcher from './LanguageSwitcher';
 interface NavbarProps {
   translations: {
     home: string;
-    about: string;
-    generator?: string;
+    howItWorks: string;
     features: string;
     pricing: string;
-    testimonials: string;
+    faq: string;
   };
 }
 
@@ -22,10 +21,10 @@ export default function Navbar({ translations }: NavbarProps) {
 
   const navItems = [
     { name: translations.home, href: '#inicio' },
-    { name: translations.about, href: '#nosotros' },
+    { name: translations.howItWorks, href: '#comofunciona' },
     { name: translations.features, href: '#caracteristicas' },
-    { name: translations.pricing, href: '#planes' },
-    { name: translations.testimonials, href: '#testimonios' },
+    { name: translations.pricing, href: '#precios' },
+    { name: translations.faq, href: '#faq' },
   ];
 
   const scrollToSection = (href: string) => {

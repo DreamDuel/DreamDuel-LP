@@ -9,9 +9,11 @@ interface TestimonialsProps {
     title: string;
     subtitle: string;
     items: {
-      text: string;
-      author: string;
+      name: string;
       role: string;
+      avatar: string;
+      text: string;
+      rating: number;
     }[];
   };
 }
@@ -97,17 +99,18 @@ export default function Testimonials({ translations }: TestimonialsProps) {
                     </p>
 
                     <div className="flex items-center gap-1 mb-4">
-                      {[...Array(5)].map((_, i) => (
+                      {[...Array(testimonial.rating)].map((_, i) => (
                         <Star key={i} className="w-4 h-4 text-primary fill-primary" />
                       ))}
                     </div>
 
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-full bg-primary-gradient flex items-center justify-center">
-                        <span className="text-white font-bold">{testimonial.author[0]}</span>
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary/20 to-primary-glow/20 
+                                    border border-primary/30 flex items-center justify-center text-2xl">
+                        {testimonial.avatar}
                       </div>
                       <div>
-                        <h4 className="text-white font-semibold">{testimonial.author}</h4>
+                        <h4 className="text-white font-semibold">{testimonial.name}</h4>
                         <p className="text-sm text-gray-400">{testimonial.role}</p>
                       </div>
                     </div>

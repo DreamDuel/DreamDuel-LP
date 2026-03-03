@@ -1,23 +1,18 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Brain, Unlock, Shield, Film, Users, Gift } from 'lucide-react';
-import Image from 'next/image';
 
 interface FeaturesSectionProps {
   translations: {
     title: string;
     subtitle: string;
     items: Array<{
+      icon: string;
       title: string;
       description: string;
     }>;
-    cta: string;
-    ctaQuestion: string;
   };
 }
-
-const icons = [Brain, Unlock, Shield, Film, Users, Gift];
 
 export default function FeaturesSection({ translations }: FeaturesSectionProps) {
   return (
@@ -25,24 +20,6 @@ export default function FeaturesSection({ translations }: FeaturesSectionProps) 
       {/* Background decorations */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary-glow/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
-
-      {/* Floating 3D Girls - Features Section */}
-      {/* Center - floating-8 (Arquera medieval) */}
-      <motion.div
-        className="absolute top-[50%] right-[5%] w-40 sm:w-52 md:w-80 h-52 sm:h-64 md:h-[420px] opacity-75 pointer-events-none z-10"
-        animate={{
-          y: [0, -20, 0],
-          rotate: [-2, 1, -2],
-        }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <Image
-          src="/images/floating-3d/floating-8.png"
-          alt="Floating character"
-          fill
-          className="object-contain"
-        />
-      </motion.div>
 
       <div className="container mx-auto max-w-6xl relative z-10">
         {/* Header */}
@@ -61,9 +38,8 @@ export default function FeaturesSection({ translations }: FeaturesSectionProps) 
         </motion.div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {translations.items.map((feature, index) => {
-            const Icon = icons[index];
             return (
               <motion.div
                 key={index}
@@ -78,23 +54,25 @@ export default function FeaturesSection({ translations }: FeaturesSectionProps) 
                               border border-white/10 backdrop-blur-sm
                               hover:border-primary/50 transition-all duration-300
                               overflow-hidden">
-                  {/* Icon */}
+                  {/* Emoji Icon */}
                   <div className="mb-6 relative">
-                    <div className="w-14 h-14 rounded-xl bg-primary-gradient flex items-center justify-center
-                                  group-hover:scale-110 transition-transform duration-300">
-                      <Icon className="w-7 h-7 text-white" />
+                    <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/20 to-primary-glow/20 
+                                  flex items-center justify-center text-4xl
+                                  group-hover:scale-110 transition-transform duration-300
+                                  border border-primary/30">
+                      {feature.icon}
                     </div>
                     
                     {/* Glow effect */}
-                    <div className="absolute inset-0 w-14 h-14 rounded-xl bg-primary/50 blur-xl 
+                    <div className="absolute inset-0 w-16 h-16 rounded-xl bg-primary/50 blur-xl 
                                   opacity-0 group-hover:opacity-50 transition-opacity duration-300" />
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-gradient transition-all">
+                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-gradient transition-all">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-400 leading-relaxed text-sm">
                     {feature.description}
                   </p>
 
@@ -110,25 +88,6 @@ export default function FeaturesSection({ translations }: FeaturesSectionProps) 
             );
           })}
         </div>
-
-        {/* Call to action */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.5 }}
-          className="text-center mt-12"
-        >
-          <p className="text-gray-400 mb-4">{translations.ctaQuestion}</p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 rounded-xl bg-primary-gradient text-white font-semibold
-                     shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-all duration-300"
-          >
-            {translations.cta}
-          </motion.button>
-        </motion.div>
       </div>
     </section>
   );

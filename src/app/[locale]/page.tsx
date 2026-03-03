@@ -3,15 +3,16 @@
 import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 import HeroSection from '@/components/HeroSection';
-import AboutSection from '@/components/AboutSection';
+import HowItWorks from '@/components/HowItWorks';
 import FeaturesSection from '@/components/FeaturesSection';
 import PricingSection from '@/components/PricingSection';
 import Testimonials from '@/components/Testimonials';
+import FAQ from '@/components/FAQ';
+import TrustBadges from '@/components/TrustBadges';
+import FinalCTA from '@/components/FinalCTA';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 import AnimatedBackground from '@/components/AnimatedBackground';
-import FloatingCharacters from '@/components/FloatingCharacters';
-import WaitlistSection from '@/components/WaitlistSection';
 import Navbar from '@/components/Navbar';
 
 export default function Home() {
@@ -25,47 +26,45 @@ export default function Home() {
       <Navbar 
         translations={{
           home: t('navbar.home'),
-          about: t('navbar.about'),
+          howItWorks: t('navbar.howItWorks'),
           features: t('navbar.features'),
           pricing: t('navbar.pricing'),
-          testimonials: t('navbar.testimonials'),
+          faq: t('navbar.faq'),
         }}
       />
 
       {/* Animated Background */}
       <AnimatedBackground />
-      
-      {/* Floating Characters */}
-      <FloatingCharacters />
 
       {/* Hero Section */}
       <section id="inicio" className="pt-20">
         <HeroSection 
-        translations={{
-          badge: t('hero.badge'),
-          title: t('hero.title'),
-          subtitle: t('hero.subtitle'),
-          cta: t('hero.cta'),
-          noLimits: t('hero.noLimits'),
-          privacyGuaranteed: t('hero.privacyGuaranteed'),
-        }}
-      />
+          translations={{
+            badge: t('hero.badge'),
+            title: t('hero.title'),
+            subtitleHighlight: t('hero.subtitleHighlight'),
+            subtitle: t('hero.subtitle'),
+            description: t('hero.description'),
+            ctaPrimary: t('hero.ctaPrimary'),
+            ctaSecondary: t('hero.ctaSecondary'),
+          }}
+        />
       </section>
 
-      {/* About Section */}
-      <section id="nosotros">
-        <AboutSection 
+      {/* Trust Badges */}
+      <TrustBadges 
+        translations={{
+          items: t.raw('trustBadges.items'),
+        }}
+      />
+
+      {/* How It Works */}
+      <section id="comofunciona">
+        <HowItWorks 
           translations={{
-            badge: t('about.badge'),
-            title: t('about.title'),
-            subtitle: t('about.subtitle'),
-            description: t('about.description'),
-            mission: t.raw('about.mission'),
-            values: t.raw('about.values'),
-            stats: t.raw('about.stats'),
-            journey: t.raw('about.journey'),
-            cta: t('about.cta'),
-            ctaSubtitle: t('about.ctaSubtitle'),
+            title: t('howItWorks.title'),
+            subtitle: t('howItWorks.subtitle'),
+            steps: t.raw('howItWorks.steps'),
           }}
         />
       </section>
@@ -73,74 +72,80 @@ export default function Home() {
       {/* Features Section */}
       <section id="caracteristicas">
         <FeaturesSection 
-        translations={{
-          title: t('features.title'),
-          subtitle: t('features.subtitle'),
-          items: t.raw('features.items'),
-          cta: t('features.cta'),
-          ctaQuestion: t('features.ctaQuestion'),
-        }}  />
+          translations={{
+            title: t('features.title'),
+            subtitle: t('features.subtitle'),
+            items: t.raw('features.items'),
+          }}
+        />
       </section>
 
       {/* Pricing Section */}
-      <section id="planes">
+      <section id="precios">
         <PricingSection 
-        translations={{
-          title: t('pricing.title'),
-          subtitle: t('pricing.subtitle'),
-          guarantee: t('pricing.guarantee'),
-          free: t.raw('pricing.free'),
-          premium: t.raw('pricing.premium'),
-        }}
-      />
+          translations={{
+            badge: t('pricing.badge'),
+            title: t('pricing.title'),
+            subtitle: t('pricing.subtitle'),
+            price: t('pricing.price'),
+            period: t('pricing.period'),
+            freeHighlight: t('pricing.freeHighlight'),
+            benefits: t.raw('pricing.benefits'),
+            cta: t('pricing.cta'),
+            disclaimer: t('pricing.disclaimer'),
+          }}
+        />
       </section>
 
       {/* Testimonials */}
       <section id="testimonios">
         <Testimonials 
-        translations={{
-          title: t('testimonials.title'),
-          subtitle: t('testimonials.subtitle'),
-          items: t.raw('testimonials.items'),
-        }}
-      />
+          translations={{
+            title: t('testimonials.title'),
+            subtitle: t('testimonials.subtitle'),
+            items: t.raw('testimonials.items'),
+          }}
+        />
       </section>
 
-      {/* Waitlist Section */}
-      <section id="waitlist">
-        <WaitlistSection 
+      {/* FAQ */}
+      <section id="faq">
+        <FAQ 
+          translations={{
+            title: t('faq.title'),
+            subtitle: t('faq.subtitle'),
+            items: t.raw('faq.items'),
+          }}
+        />
+      </section>
+
+      {/* Final CTA */}
+      <FinalCTA 
         translations={{
-          badge: t('waitlist.badge'),
-          title: t('waitlist.title'),
-          subtitle: t('waitlist.subtitle'),
-          freeAccess: t('waitlist.freeAccess'),
-          priorityAccess: t('waitlist.priorityAccess'),
-          stats: {
-            users: t('waitlist.stats.users'),
-            waitTime: t('waitlist.stats.waitTime'),
-          },
+          title: t('finalCta.title'),
+          subtitle: t('finalCta.subtitle'),
+          cta: t('finalCta.cta'),
+          disclaimer: t('finalCta.disclaimer'),
         }}
       />
-      </section>
 
       {/* Footer */}
       <Footer 
         translations={{
           tagline: t('footer.tagline'),
-          downloadApp: t('footer.downloadApp'),
-          downloadOn: t('footer.downloadOn'),
-          appStore: t('footer.appStore'),
-          googlePlay: t('footer.googlePlay'),
-          contentWarning: t('footer.contentWarning'),
-          community: t('footer.community'),
+          product: t('footer.product'),
+          pricing: t('footer.pricing'),
+          howItWorks: t('footer.howItWorks'),
+          examples: t('footer.examples'),
+          faq: t('footer.faq'),
           legal: t('footer.legal'),
           privacy: t('footer.privacy'),
           terms: t('footer.terms'),
           contact: t('footer.contact'),
+          support: t('footer.support'),
+          email: t('footer.email'),
           madeWith: t('footer.madeWith'),
           by: t('footer.by'),
-          warning: t('footer.warning'),
-          disclaimer: t('footer.disclaimer'),
           copyright: t('footer.copyright'),
         }}
       />

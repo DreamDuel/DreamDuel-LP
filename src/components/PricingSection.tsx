@@ -1,32 +1,19 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Check, Sparkles, Crown } from 'lucide-react';
-import Image from 'next/image';
+import { Check, Sparkles } from 'lucide-react';
 
 interface PricingSectionProps {
   translations: {
+    badge: string;
     title: string;
     subtitle: string;
-    guarantee: string;
-    free: {
-      name: string;
-      price: string;
-      currency: string;
-      period: string;
-      features: string[];
-      cta: string;
-    };
-    premium: {
-      name: string;
-      price: string;
-      currency: string;
-      period: string;
-      popular: string;
-      features: string[];
-      cta: string;
-      cancelPolicy: string;
-    };
+    price: string;
+    period: string;
+    freeHighlight: string;
+    benefits: string[];
+    cta: string;
+    disclaimer: string;
   };
 }
 
@@ -38,43 +25,6 @@ export default function PricingSection({ translations }: PricingSectionProps) {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] 
                       bg-primary-glow/10 rounded-full blur-3xl" />
       </div>
-
-      {/* Floating 3D Girls removed - starting from scratch */}
-
-      {/* Floating 3D characters - Pricing Section */}
-      {/* Top left - floating-6 (Músico rockero) */}
-      <motion.div
-        className="absolute top-[-2%] left-[-3%] w-48 sm:w-60 md:w-84 h-60 sm:h-72 md:h-[440px] opacity-80 pointer-events-none z-10"
-        animate={{
-          y: [0, -15, 0],
-          rotate: [-1, 2, -1],
-        }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <Image
-          src="/images/floating-3d/floating-6.png"
-          alt="Floating character"
-          fill
-          className="object-contain"
-        />
-      </motion.div>
-
-      {/* Top right - floating-7 (Científica) */}
-      <motion.div
-        className="absolute top-[-2%] right-[-3%] w-48 sm:w-60 md:w-84 h-60 sm:h-72 md:h-[440px] opacity-80 pointer-events-none z-10"
-        animate={{
-          y: [0, -18, 0],
-          rotate: [2, -1, 2],
-        }}
-        transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
-      >
-        <Image
-          src="/images/floating-3d/floating-7.png"
-          alt="Floating character"
-          fill
-          className="object-contain"
-        />
-      </motion.div>
 
       <div className="container mx-auto max-w-6xl relative z-10">
         {/* Header */}
@@ -92,110 +42,88 @@ export default function PricingSection({ translations }: PricingSectionProps) {
           </p>
         </motion.div>
 
-        {/* Pricing cards */}
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {/* Free Plan */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="relative h-full"
-          >
-            <div className="h-full p-6 md:p-8 rounded-3xl bg-gradient-to-br from-white/5 to-transparent 
-                          border border-white/10 backdrop-blur-sm
-                          hover:border-white/20 transition-all duration-300 flex flex-col">
-              {/* Header */}
-              <div className="mb-6 md:mb-8">
-                <div className="flex items-center gap-2 mb-3 md:mb-4">
-                  <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-gray-400" />
-                  <h3 className="text-xl md:text-2xl font-bold text-white">{translations.free.name}</h3>
-                </div>
-                <div className="flex items-baseline gap-1">
-                  <span className="text-4xl md:text-5xl font-bold text-white">{translations.free.price}</span>
-                  <span className="text-lg md:text-xl text-gray-400">{translations.free.currency}</span>
-                  <span className="text-sm md:text-base text-gray-400">{translations.free.period}</span>
+        {/* Single Pricing Card */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2 }}
+          className="max-w-xl mx-auto"
+        >
+          <div className="p-8 md:p-12 rounded-3xl bg-gradient-to-br from-primary/10 via-primary-glow/10 to-transparent 
+                        border-2 border-primary/50 backdrop-blur-sm relative overflow-hidden
+                        shadow-2xl shadow-primary/30">
+            {/* Decorative glow effects */}
+            <div className="absolute -top-20 -right-20 w-48 h-48 bg-primary/30 rounded-full blur-3xl" />
+            <div className="absolute -bottom-20 -left-20 w-48 h-48 bg-primary-glow/30 rounded-full blur-3xl" />
+
+            <div className="relative z-10">
+              {/* Badge */}
+              <div className="inline-block px-4 py-2 rounded-full bg-primary/20 border border-primary/50 mb-6">
+                <span className="text-sm font-bold text-primary uppercase tracking-wider">
+                  {translations.badge}
+                </span>
+              </div>
+
+              {/* Icon */}
+              <div className="flex justify-center mb-6">
+                <div className="w-20 h-20 rounded-2xl bg-primary-gradient flex items-center justify-center
+                              shadow-lg shadow-primary/40">
+                  <Sparkles className="w-10 h-10 text-white" />
                 </div>
               </div>
 
-              {/* Features */}
-              <ul className="space-y-3 md:space-y-4 flex-grow">
-                {translations.free.features.map((feature, index) => (
-                  <li key={index} className="flex items-start gap-2 md:gap-3">
-                    <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-gray-700 flex items-center justify-center flex-shrink-0 mt-0.5">
-                      <Check className="w-2.5 h-2.5 md:w-3 md:h-3 text-gray-300" />
+              {/* Price */}
+              <div className="text-center mb-8">
+                <div className="flex items-baseline justify-center gap-2 mb-2">
+                  <span className="text-6xl md:text-7xl font-bold text-white">
+                    {translations.price}
+                  </span>
+                  <span className="text-xl text-gray-400">{translations.period}</span>
+                </div>
+                
+                {/* Free Highlight */}
+                <div className="inline-block mt-4 px-6 py-3 rounded-full bg-primary-gradient">
+                  <span className="text-base md:text-lg font-bold text-white">
+                    {translations.freeHighlight}
+                  </span>
+                </div>
+              </div>
+
+              {/* Benefits */}
+              <ul className="space-y-4 mb-8">
+                {translations.benefits.map((benefit, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <div className="w-6 h-6 rounded-full bg-primary/20 border border-primary/50 
+                                  flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <Check className="w-4 h-4 text-primary" />
                     </div>
-                    <span className="text-sm md:text-base text-gray-300">{feature}</span>
+                    <span className="text-gray-300 text-base">{benefit}</span>
                   </li>
                 ))}
               </ul>
+
+              {/* CTA Button */}
+              <motion.a
+                href="/images"
+                whileHover={{ scale: 1.03, y: -2 }}
+                whileTap={{ scale: 0.98 }}
+                className="block w-full py-5 rounded-xl bg-primary-gradient text-white font-bold text-lg
+                         shadow-lg shadow-primary/40 hover:shadow-xl hover:shadow-primary/60
+                         transition-all duration-300 text-center"
+              >
+                <span className="flex items-center justify-center gap-2">
+                  <Sparkles className="w-5 h-5" />
+                  {translations.cta}
+                </span>
+              </motion.a>
+
+              {/* Disclaimer */}
+              <p className="text-center text-sm text-gray-500 mt-4">
+                {translations.disclaimer}
+              </p>
             </div>
-          </motion.div>
-
-          {/* Premium Plan */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="relative h-full"
-          >
-            <div className="h-full p-6 md:p-8 rounded-3xl bg-gradient-to-br from-primary/10 via-primary-glow/10 to-transparent 
-                          border-2 border-primary/50 backdrop-blur-sm relative overflow-hidden
-                          hover:border-primary/70 transition-all duration-300 shadow-2xl shadow-primary/20 flex flex-col">
-              {/* Decorative glow */}
-              <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/30 rounded-full blur-3xl" />
-              <div className="absolute -bottom-20 -left-20 w-40 h-40 bg-primary-glow/30 rounded-full blur-3xl" />
-
-              <div className="relative z-10">
-                {/* Header */}
-                <div className="mb-6 md:mb-8">
-                  <div className="flex items-center gap-2 mb-3 md:mb-4">
-                    <Crown className="w-4 h-4 md:w-5 md:h-5 text-primary" />
-                    <h3 className="text-xl md:text-2xl font-bold text-gradient">{translations.premium.name}</h3>
-                  </div>
-                  <div className="flex items-baseline gap-1">
-                    <span className="text-4xl md:text-5xl font-bold text-white">{translations.premium.price}</span>
-                    <span className="text-lg md:text-xl text-gray-400">{translations.premium.currency}</span>
-                    <span className="text-sm md:text-base text-gray-400">{translations.premium.period}</span>
-                  </div>
-                </div>
-
-                {/* Features */}
-                <ul className="space-y-3 md:space-y-4 flex-grow">
-                  {translations.premium.features.map((feature, index) => (
-                    <motion.li
-                      key={index}
-                      initial={{ opacity: 0, x: -10 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ delay: 0.3 + index * 0.05 }}
-                      className="flex items-start gap-2 md:gap-3"
-                    >
-                      <div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-primary-gradient flex items-center justify-center flex-shrink-0 mt-0.5
-                                    shadow-lg shadow-primary/50">
-                        <Check className="w-2.5 h-2.5 md:w-3 md:h-3 text-white" />
-                      </div>
-                      <span className="text-sm md:text-base text-white">{feature}</span>
-                    </motion.li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-
-        {/* Bottom CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.4 }}
-          className="text-center mt-12"
-        >
-          <p className="text-gray-400">
-            {translations.guarantee}
-          </p>
+          </div>
         </motion.div>
       </div>
     </section>

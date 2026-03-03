@@ -1,23 +1,30 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Sparkles, ArrowRight, MessageCircle } from 'lucide-react';
+import { Sparkles, ArrowRight, ArrowDown } from 'lucide-react';
 import { useState } from 'react';
-import Image from 'next/image';
 
 interface HeroSectionProps {
   translations: {
     badge: string;
     title: string;
+    subtitleHighlight: string;
     subtitle: string;
-    cta: string;
-    noLimits: string;
-    privacyGuaranteed: string;
+    description: string;
+    ctaPrimary: string;
+    ctaSecondary: string;
   };
 }
 
 export default function HeroSection({ translations }: HeroSectionProps) {
   const [hoveredBtn, setHoveredBtn] = useState(false);
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.querySelector(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 py-20">
@@ -53,12 +60,13 @@ export default function HeroSection({ translations }: HeroSectionProps) {
       <div className="container mx-auto max-w-7xl relative z-10">
         <div className="flex justify-center items-center">
           {/* Text content */}
-          <div className="space-y-8 max-w-3xl mx-auto text-center">
+          <div className="space-y-8 max-w-4xl mx-auto text-center">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
             >
+              {/* Badge */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -70,54 +78,67 @@ export default function HeroSection({ translations }: HeroSectionProps) {
                 <span className="text-sm text-primary font-medium">{translations.badge}</span>
               </motion.div>
 
-              <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight mb-4 md:mb-6">
-                <motion.span
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.2, duration: 0.8 }}
-                  className="block text-gradient"
-                >
-                  {translations.title.split(',')[0]},
-                </motion.span>
-                <motion.span
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.4, duration: 0.8 }}
-                  className="block text-white"
-                >
-                  {translations.title.split(',').slice(1).join(',')}
-                </motion.span>
+              {/* Title */}
+              <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 text-gradient">
+                {translations.title}
               </h1>
             </motion.div>
 
+            {/* Subtitle Highlight - FREE */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.3, duration: 0.6 }}
+              className="inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-primary/20 to-primary-glow/20
+                       border-2 border-primary shadow-xl shadow-primary/30"
+            >
+              <p className="text-xl md:text-2xl lg:text-3xl font-bold text-white">
+                {translations.subtitleHighlight}
+              </p>
+            </motion.div>
+
+            {/* Subtitle - $1 */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.8 }}
-              className="text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed max-w-xl mx-auto"
+              transition={{ delay: 0.5, duration: 0.8 }}
+              className="text-lg md:text-xl lg:text-2xl text-gray-300 font-semibold"
             >
               {translations.subtitle}
+            </motion.p>
+
+            {/* Description */}
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.7, duration: 0.8 }}
+              className="text-base md:text-lg text-gray-400 leading-relaxed max-w-2xl mx-auto"
+            >
+              {translations.description}
             </motion.p>
 
             {/* CTA Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.8, duration: 0.8 }}
-              className="flex flex-col items-center gap-2"
+              transition={{ delay: 0.9, duration: 0.8 }}
+              className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
             >
-              <motion.button
+              {/* Primary CTA */}
+              <motion.a
+                href="/images"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onHoverStart={() => setHoveredBtn(true)}
                 onHoverEnd={() => setHoveredBtn(false)}
-                className="group relative px-8 md:px-10 py-4 md:py-5 rounded-xl bg-primary-gradient text-white font-semibold text-lg md:text-xl
+                className="group relative px-8 md:px-10 py-4 md:py-5 rounded-xl bg-primary-gradient text-white font-bold text-lg md:text-xl
                          shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-all duration-300
                          overflow-hidden"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
-                  {translations.cta}
-                  <ArrowRight className={`w-5 h-5 md:w-6 md:h-6 transition-transform duration-300 ${hoveredBtn ? 'translate-x-1' : ''}`} />
+                  <Sparkles className="w-5 h-5" />
+                  {translations.ctaPrimary}
+                  <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${hoveredBtn ? 'translate-x-1' : ''}`} />
                 </span>
                 <motion.div
                   className="absolute inset-0 bg-white/20"
@@ -125,25 +146,40 @@ export default function HeroSection({ translations }: HeroSectionProps) {
                   whileHover={{ x: '100%' }}
                   transition={{ duration: 0.6 }}
                 />
-              </motion.button>
-              <p className="text-sm text-gray-400">{translations.noLimits}</p>
-            </motion.div>
+              </motion.a>
 
-            {/* Trust indicators */}
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1, duration: 0.8 }}
-              className="flex items-center justify-center gap-3 sm:gap-6 pt-4"
-            >
-              <div className="flex items-center gap-2">
-                <MessageCircle className="w-4 h-4 md:w-5 md:h-5 text-neon-violet" />
-                <span className="text-xs md:text-sm text-gray-400">{translations.privacyGuaranteed}</span>
-              </div>
+              {/* Secondary CTA */}
+              <motion.button
+                onClick={() => scrollToSection('#comofunciona')}
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-8 md:px-10 py-4 md:py-5 rounded-xl 
+                         border-2 border-white/20 text-white font-semibold text-lg
+                         hover:border-primary/50 hover:bg-white/5
+                         transition-all duration-300"
+              >
+                {translations.ctaSecondary}
+              </motion.button>
             </motion.div>
           </div>
         </div>
       </div>
+
+      {/* Scroll indicator */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5, duration: 1 }}
+        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+      >
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
+          transition={{ duration: 2, repeat: Infinity }}
+          className="text-gray-400"
+        >
+          <ArrowDown className="w-6 h-6" />
+        </motion.div>
+      </motion.div>
     </section>
   );
 }
