@@ -12,7 +12,12 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-primary-glow to-accent-hot;
+    background: linear-gradient(to right, rgb(96, 165, 250), rgb(79, 195, 247), rgb(255, 110, 64));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 2px;
+    display: inline-block;
   }
   
   .glow-primary {

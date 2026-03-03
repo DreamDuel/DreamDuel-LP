@@ -79,7 +79,7 @@ export default function HeroSection({ translations }: HeroSectionProps) {
               </motion.div>
 
               {/* Title */}
-              <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 text-gradient">
+              <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 pb-2 text-gradient">
                 {translations.title}
               </h1>
             </motion.div>
