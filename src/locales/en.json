@@ -7,12 +7,12 @@
     "faq": "FAQ"
   },
   "hero": {
-    "badge": "AI Generative",
+    "badge": "Generative AI",
     "title": "Generate images with AI",
-    "subtitleHighlight": "Your first image is completely FREE 🎁",
-    "subtitle": "Then, only $1 for each image you generate",
-    "description": "Create any type of image with AI: art, illustrations, photography, uncensored +18 content. No subscriptions, no limits, no watermarks.",
-    "ctaPrimary": "Generate My First Free Image",
+    "subtitleHighlight": "Only $1 per image",
+    "subtitle": "Unlimited generator, no censorship, no restrictions",
+    "description": "We believe in total freedom and absolute privacy. Generate any type of image: art, illustrations, photography, +18 content. Without the restrictive policies of Gemini or ChatGPT.",
+    "ctaPrimary": "Get Started",
     "ctaSecondary": "See How It Works"
   },
   "howItWorks": {
@@ -21,19 +21,19 @@
     "steps": [
       {
         "number": "1",
-        "icon": "📝",
+        "icon": "",
         "title": "Describe your image",
-        "description": "Write what you want to create: portraits, landscapes, abstract art, illustrations, uncensored +18 content. Anything you imagine, no restrictions."
+        "description": "Write what you want to create: portraits, landscapes, abstract art, illustrations, +18 content. Anything you imagine, no restrictions or censorship."
       },
       {
         "number": "2",
-        "icon": "⚡",
+        "icon": "",
         "title": "AI generates your image",
-        "description": "Our artificial intelligence creates your image in seconds. Your first generation is 100% free. The next ones cost only $1 per generation."
+        "description": "Our artificial intelligence creates your image in seconds. Each generation costs only $1.00 USD."
       },
       {
         "number": "3",
-        "icon": "⬇️",
+        "icon": "",
         "title": "Immediate download",
         "description": "Your image downloads directly to your device. We don't store it on our servers to protect your privacy."
       }
@@ -69,54 +69,54 @@
     "subtitle": "Simple, fast, and no surprises",
     "items": [
       {
-        "icon": "🎁",
-        "title": "First Image Completely FREE",
-        "description": "Try our generator without commitment. Just sign up and generate your first image completely free."
-      },
-      {
-        "icon": "💵",
+        "icon": "",
         "title": "Only $1 per Image",
         "description": "No monthly subscriptions, no confusing packages, no hidden charges. You only pay when you generate an image."
       },
       {
-        "icon": "⬇️",
-        "title": "Immediate and Private Download",
-        "description": "Your image downloads automatically to your device. We don't save it on our servers to guarantee your privacy."
+        "icon": "",
+        "title": "No Limits or Censorship",
+        "description": "Generate any type of content without restrictions. Without the limiting policies of other AI platforms."
       },
       {
-        "icon": "✨",
+        "icon": "",
+        "title": "Total Freedom and Privacy",
+        "description": "We believe in absolute creative freedom. Your image downloads directly, we don't store it on our servers."
+      },
+      {
+        "icon": "",
         "title": "High Resolution Generation",
         "description": "High quality images generated with the best artificial intelligence models available."
       },
       {
-        "icon": "🚀",
-        "title": "Fast and Super Simple",
-        "description": "Describe what you want, generate in seconds, download. No complications. That easy."
+        "icon": "",
+        "title": "Fast and Simple",
+        "description": "Describe what you want, generate in seconds, download. No unnecessary complications."
       },
       {
-        "icon": "🔒",
-        "title": "100% Secure Payment",
+        "icon": "",
+        "title": "Secure Payment",
         "description": "We process all payments through PayPal. Your financial information is completely protected."
       }
     ]
   },
   "pricing": {
-    "badge": "SINGLE PRICE",
+    "badge": "SIMPLE PRICING",
     "title": "No Subscriptions. No Surprises.",
     "subtitle": "Pay only for what you use",
     "price": "$1",
     "period": "per image",
-    "freeHighlight": "FIRST IMAGE FREE 🎁",
+    "freeHighlight": "NO CENSORSHIP OR RESTRICTIONS",
     "benefits": [
       "High quality generation",
-      "No monthly subscriptions",
+      "No limits or censorship",
       "Immediate download",
       "Not stored on servers",
-      "Single payment per image",
+      "Single $1 payment per image",
       "Secure processing with PayPal"
     ],
-    "cta": "Start Free Now",
-    "disclaimer": "Your first image is 100% free"
+    "cta": "Get Started",
+    "disclaimer": "Only $1 per image. No commitments."
   },
   "testimonials": {
     "title": "What our users say",
@@ -125,22 +125,22 @@
       {
         "name": "María González",
         "role": "Graphic Designer",
-        "avatar": "👩‍💼",
+        "avatar": "",
         "text": "Perfect for generating mockups and visual concepts quickly. The $1 price per image is super fair compared to other tools. I no longer need expensive monthly subscriptions.",
         "rating": 5
       },
       {
         "name": "Carlos Rodríguez",
         "role": "Digital Entrepreneur",
-        "avatar": "👨‍💻",
-        "text": "The free first image convinced me instantly. Now I generate all images for my social media here. Fast, cheap, and excellent quality.",
+        "avatar": "",
+        "text": "I love the creative freedom it offers me. I can generate any type of image without the absurd restrictions of ChatGPT or Gemini. It's a game changer.",
         "rating": 5
       },
       {
         "name": "Ana López",
         "role": "Content Creator",
-        "avatar": "👩‍🎨",
-        "text": "I love the freedom and zero censorship it offers me. I can create any type of image without restrictions. Perfect for my work.",
+        "avatar": "",
+        "text": "I love the total freedom and zero censorship it offers me. I can create any type of image without restrictions. Perfect for my work.",
         "rating": 5
       }
     ]
@@ -150,12 +150,8 @@
     "subtitle": "Everything you need to know",
     "items": [
       {
-        "question": "Is the first image really free?",
-        "answer": "Yes, completely free. You just need to create an account and you can generate your first image at no cost."
-      },
-      {
-        "question": "How much do images cost after the first one?",
-        "answer": "Each additional image costs exactly $1.00 USD. No packages, no subscriptions, just $1 per image you generate."
+        "question": "How much does it cost to generate an image?",
+        "answer": "Each image costs exactly $1.00 USD. No packages, no subscriptions, just $1 per image you generate."
       },
       {
         "question": "How do I make payment?",
@@ -167,7 +163,7 @@
       },
       {
         "question": "How many images can I generate?",
-        "answer": "You can generate as many images as you need. Your first image is free, and each one after costs $1. There are no limits."
+        "answer": "You can generate as many images as you need. Each one costs $1. There are no limits."
       },
       {
         "question": "What if I don't like the image the AI generates?",
@@ -178,6 +174,10 @@
         "answer": "You can create any type of image: realistic portraits, landscapes, abstract art, anime illustrations, professional photography, uncensored +18 content, and much more. No restrictions or limits."
       },
       {
+        "question": "Why don't you have the restrictions of Gemini or ChatGPT?",
+        "answer": "We believe in total creative freedom. We don't impose absurd or restrictive policies. You can generate any type of content without censorship or unnecessary limitations."
+      },
+      {
         "question": "How long does it take to generate an image?",
         "answer": "Between 3 and 5 seconds on average. Generation is almost instantaneous and download is immediate."
       }
@@ -186,36 +186,36 @@
   "trustBadges": {
     "items": [
       {
-        "icon": "🔒",
+        "icon": "",
         "text": "100% secure payment with PayPal"
       },
       {
-        "icon": "✓",
+        "icon": "",
         "text": "No monthly subscriptions"
       },
       {
-        "icon": "⚡",
+        "icon": "",
         "text": "Generation in 3-5 seconds"
       },
       {
-        "icon": "🎁",
-        "text": "First image free"
+        "icon": "",
+        "text": "No censorship or restrictions"
       },
       {
-        "icon": "💳",
+        "icon": "",
         "text": "Only $1 per image"
       },
       {
-        "icon": "📱",
+        "icon": "",
         "text": "Mobile and desktop compatible"
       }
     ]
   },
   "finalCta": {
-    "title": "Ready to create your first image?",
-    "subtitle": "It's free, it's fast, it's amazing",
-    "cta": "Generate My First Free Image",
-    "disclaimer": "First image 100% free"
+    "title": "Ready to create unlimited images?",
+    "subtitle": "No censorship, no restrictions, no boring policies",
+    "cta": "Get Started",
+    "disclaimer": "Only $1 per image"
   },
   "terms": {
     "title": "Terms and Conditions",

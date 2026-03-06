@@ -9,10 +9,10 @@
   "hero": {
     "badge": "IA Generativa",
     "title": "Genera imágenes con IA",
-    "subtitleHighlight": "Tu primera imagen es completamente GRATIS 🎁",
-    "subtitle": "Luego, solo $1 por cada imagen que generes",
-    "description": "Crea cualquier tipo de imagen con IA: arte, ilustraciones, fotografías, contenido +18 sin censura. Sin suscripciones, sin límites, sin marcas de agua.",
-    "ctaPrimary": "Generar Mi Primera Imagen Gratis",
+    "subtitleHighlight": "Solo $1 por imagen",
+    "subtitle": "Generador sin límites, sin censura, sin restricciones",
+    "description": "Creemos en la libertad total y la privacidad absoluta. Genera cualquier tipo de imagen: arte, ilustraciones, fotografías, contenido +18. Sin las políticas restrictivas de Gemini o ChatGPT.",
+    "ctaPrimary": "Comenzar Ahora",
     "ctaSecondary": "Ver Cómo Funciona"
   },
   "howItWorks": {
@@ -21,19 +21,19 @@
     "steps": [
       {
         "number": "1",
-        "icon": "📝",
+        "icon": "",
         "title": "Describe tu imagen",
-        "description": "Escribe lo que quieres crear: retratos, paisajes, arte abstracto, ilustraciones, contenido +18 sin censura. Cualquier cosa que imagines, sin restricciones."
+        "description": "Escribe lo que quieres crear: retratos, paisajes, arte abstracto, ilustraciones, contenido +18. Cualquier cosa que imagines, sin restricciones ni censura."
       },
       {
         "number": "2",
-        "icon": "⚡",
+        "icon": "",
         "title": "La IA genera tu imagen",
-        "description": "Nuestra inteligencia artificial crea tu imagen en segundos. Tu primera generación es 100% gratis. Las siguientes cuestan solo $1 cada generación."
+        "description": "Nuestra inteligencia artificial crea tu imagen en segundos. Cada generación cuesta solo $1.00 USD."
       },
       {
         "number": "3",
-        "icon": "⬇️",
+        "icon": "",
         "title": "Descarga inmediata",
         "description": "Tu imagen se descarga directamente a tu dispositivo. No la almacenamos en nuestros servidores para proteger tu privacidad."
       }
@@ -69,54 +69,54 @@
     "subtitle": "Simple, rápido y sin sorpresas",
     "items": [
       {
-        "icon": "🎁",
-        "title": "Primera Imagen Completamente GRATIS",
-        "description": "Prueba nuestro generador sin compromiso. Solo regístrate y genera tu primera imagen completamente gratis."
-      },
-      {
-        "icon": "💵",
+        "icon": "",
         "title": "Solo $1 por Imagen",
         "description": "Sin suscripciones mensuales, sin paquetes confusos, sin cargos ocultos. Pagas solo cuando generas una imagen."
       },
       {
-        "icon": "⬇️",
-        "title": "Descarga Inmediata y Privada",
-        "description": "Tu imagen se descarga automáticamente a tu dispositivo. No la guardamos en nuestros servidores para garantizar tu privacidad."
+        "icon": "",
+        "title": "Sin Límites ni Censura",
+        "description": "Genera cualquier tipo de contenido sin restricciones. Sin las políticas limitantes de otras plataformas de IA."
       },
       {
-        "icon": "✨",
+        "icon": "",
+        "title": "Libertad Total y Privacidad",
+        "description": "Creemos en la libertad creativa absoluta. Tu imagen se descarga directamente, no la almacenamos en nuestros servidores."
+      },
+      {
+        "icon": "",
         "title": "Generación en Alta Resolución",
         "description": "Imágenes de alta calidad generadas con los mejores modelos de inteligencia artificial disponibles."
       },
       {
-        "icon": "🚀",
-        "title": "Rápido y Súper Simple",
-        "description": "Describe lo que quieres, genera en segundos, descarga. Sin complicaciones. Así de fácil."
+        "icon": "",
+        "title": "Rápido y Simple",
+        "description": "Describe lo que quieres, genera en segundos, descarga. Sin complicaciones innecesarias."
       },
       {
-        "icon": "🔒",
-        "title": "Pago 100% Seguro",
+        "icon": "",
+        "title": "Pago Seguro",
         "description": "Procesamos todos los pagos a través de PayPal. Tu información financiera está completamente protegida."
       }
     ]
   },
   "pricing": {
-    "badge": "PRECIO ÚNICO",
+    "badge": "PRECIO SIMPLE",
     "title": "Sin Suscripciones. Sin Sorpresas.",
     "subtitle": "Paga solo por lo que usas",
     "price": "$1",
     "period": "por imagen",
-    "freeHighlight": "PRIMERA IMAGEN GRATIS 🎁",
+    "freeHighlight": "SIN CENSURA NI RESTRICCIONES",
     "benefits": [
       "Generación en alta calidad",
-      "Sin suscripciones mensuales",
+      "Sin límites ni censura",
       "Descarga inmediata",
       "No se almacena en servidores",
-      "Pago único por imagen",
+      "Pago único de $1 por imagen",
       "Procesamiento seguro con PayPal"
     ],
-    "cta": "Empezar Gratis Ahora",
-    "disclaimer": "Tu primera imagen es 100% gratis"
+    "cta": "Comenzar Ahora",
+    "disclaimer": "Solo $1 por imagen. Sin compromisos."
   },
   "testimonials": {
     "title": "Lo que dicen nuestros usuarios",
@@ -125,22 +125,22 @@
       {
         "name": "María González",
         "role": "Diseñadora Gráfica",
-        "avatar": "👩‍💼",
+        "avatar": "",
         "text": "Perfecto para generar mockups y conceptos visuales rápidamente. El precio de $1 por imagen es súper justo comparado con otras herramientas. Ya no necesito suscripciones caras mensuales.",
         "rating": 5
       },
       {
         "name": "Carlos Rodríguez",
         "role": "Emprendedor Digital",
-        "avatar": "👨‍💻",
-        "text": "La primera imagen gratis me convenció al instante. Ahora genero todas las imágenes para mis redes sociales aquí. Rápido, barato y de excelente calidad.",
+        "avatar": "",
+        "text": "La libertad creativa sin restricciones es impresionante. Genero todo tipo de contenido para mis proyectos. Rápido, económico y de excelente calidad.",
         "rating": 5
       },
       {
         "name": "Ana López",
         "role": "Creadora de Contenido",
-        "avatar": "👩‍🎨",
-        "text": "Me gusta la libertad y lo 0 censura que me ofrece. Puedo crear cualquier tipo de imagen sin restricciones. Perfecto para mi trabajo.",
+        "avatar": "",
+        "text": "Me gusta la libertad total y la cero censura que ofrece. Puedo crear cualquier tipo de imagen sin restricciones. Perfecto para mi trabajo.",
         "rating": 5
       }
     ]
@@ -150,12 +150,8 @@
     "subtitle": "Todo lo que necesitas saber",
     "items": [
       {
-        "question": "¿La primera imagen es realmente gratis?",
-        "answer": "Sí, completamente gratis. Solo necesitas crear una cuenta y podrás generar tu primera imagen sin ningún costo."
-      },
-      {
-        "question": "¿Cuánto cuestan las imágenes después de la primera?",
-        "answer": "Cada imagen adicional cuesta exactamente $1.00 USD. No hay paquetes, no hay suscripciones, solo $1 por imagen que generes."
+        "question": "¿Cuánto cuesta generar una imagen?",
+        "answer": "Cada imagen cuesta exactamente $1.00 USD. No hay paquetes, no hay suscripciones, solo $1 por imagen que generes."
       },
       {
         "question": "¿Cómo realizo el pago?",
@@ -163,11 +159,11 @@
       },
       {
         "question": "¿Guardan mis imágenes en sus servidores?",
-        "answer": "No. Las imágenes se generan y se descargan directamente a tu dispositivo. No almacenamos las imágenes en nuestros servidores para proteger tu privacidad y ahorrar costos."
+        "answer": "No. Las imágenes se generan y se descargan directamente a tu dispositivo. No almacenamos las imágenes en nuestros servidores para proteger tu privacidad."
       },
       {
         "question": "¿Cuántas imágenes puedo generar?",
-        "answer": "Puedes generar todas las imágenes que necesites. Tu primera imagen es gratis, y cada una después cuesta $1. No hay límites."
+        "answer": "Puedes generar todas las imágenes que necesites. Cada una cuesta $1. No hay límites de uso."
       },
       {
         "question": "¿Qué pasa si no me gusta la imagen que genera la IA?",
@@ -175,47 +171,51 @@
       },
       {
         "question": "¿Qué tipo de imágenes puedo generar?",
-        "answer": "Puedes crear cualquier tipo de imagen: retratos realistas, paisajes, arte abstracto, ilustraciones anime, fotografía profesional, contenido +18 sin censura, y mucho más. Sin restricciones ni límites."
+        "answer": "Puedes crear cualquier tipo de imagen: retratos realistas, paisajes, arte abstracto, ilustraciones anime, fotografía profesional, contenido +18 sin censura, y mucho más. Sin restricciones ni límites a diferencia de Gemini o ChatGPT."
       },
       {
         "question": "¿Cuánto tiempo tarda en generarse una imagen?",
         "answer": "Entre 3 y 5 segundos en promedio. La generación es casi instantánea y la descarga es inmediata."
+      },
+      {
+        "question": "¿Por qué no tienen las restricciones de Gemini o ChatGPT?",
+        "answer": "Creemos en la libertad total y la privacidad. No imponemos políticas restrictivas. Eres libre de crear cualquier contenido que imagines, siempre que sea legal en tu jurisdicción."
       }
     ]
   },
   "trustBadges": {
     "items": [
       {
-        "icon": "🔒",
-        "text": "Pago 100% seguro con PayPal"
+        "icon": "",
+        "text": "Pago seguro con PayPal"
       },
       {
-        "icon": "✓",
+        "icon": "",
         "text": "Sin suscripciones mensuales"
       },
       {
-        "icon": "⚡",
+        "icon": "",
         "text": "Generación en 3-5 segundos"
       },
       {
-        "icon": "🎁",
-        "text": "Primera imagen gratis"
+        "icon": "",
+        "text": "Sin censura ni restricciones"
       },
       {
-        "icon": "💳",
+        "icon": "",
         "text": "Solo $1 por imagen"
       },
       {
-        "icon": "📱",
+        "icon": "",
         "text": "Compatible móvil y escritorio"
       }
     ]
   },
   "finalCta": {
-    "title": "¿Listo para crear tu primera imagen?",
-    "subtitle": "Es gratis, es rápido, es increíble",
-    "cta": "Generar Mi Primera Imagen Gratis",
-    "disclaimer": "Primera imagen 100% gratis"
+    "title": "¿Listo para crear imágenes sin límites?",
+    "subtitle": "Sin censura, sin restricciones, sin políticas aburridas",
+    "cta": "Comenzar Ahora",
+    "disclaimer": "Solo $1 por imagen"
   },
   "terms": {
     "title": "Términos y Condiciones",
