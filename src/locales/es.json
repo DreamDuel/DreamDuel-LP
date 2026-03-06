@@ -11,7 +11,7 @@
     "title": "Genera imágenes con IA",
     "subtitleHighlight": "Solo $1 por imagen",
     "subtitle": "Generador sin límites, sin censura, sin restricciones",
-    "description": "Creemos en la libertad total y la privacidad absoluta. Genera cualquier tipo de imagen: arte, ilustraciones, fotografías, contenido +18. Sin las políticas restrictivas de Gemini o ChatGPT.",
+    "description": "Creemos en la libertad total y la privacidad absoluta. Genera cualquier tipo de imagen: arte, ilustraciones, fotografías, contenido +18. Sin políticas aburridas ni restricciones innecesarias.",
     "ctaPrimary": "Comenzar Ahora",
     "ctaSecondary": "Ver Cómo Funciona"
   },
@@ -69,32 +69,32 @@
     "subtitle": "Simple, rápido y sin sorpresas",
     "items": [
       {
-        "icon": "",
+        "icon": "💵",
         "title": "Solo $1 por Imagen",
         "description": "Sin suscripciones mensuales, sin paquetes confusos, sin cargos ocultos. Pagas solo cuando generas una imagen."
       },
       {
-        "icon": "",
+        "icon": "🎨",
         "title": "Sin Límites ni Censura",
         "description": "Genera cualquier tipo de contenido sin restricciones. Sin las políticas limitantes de otras plataformas de IA."
       },
       {
-        "icon": "",
+        "icon": "🔐",
         "title": "Libertad Total y Privacidad",
         "description": "Creemos en la libertad creativa absoluta. Tu imagen se descarga directamente, no la almacenamos en nuestros servidores."
       },
       {
-        "icon": "",
+        "icon": "✨",
         "title": "Generación en Alta Resolución",
         "description": "Imágenes de alta calidad generadas con los mejores modelos de inteligencia artificial disponibles."
       },
       {
-        "icon": "",
+        "icon": "⚡",
         "title": "Rápido y Simple",
         "description": "Describe lo que quieres, genera en segundos, descarga. Sin complicaciones innecesarias."
       },
       {
-        "icon": "",
+        "icon": "🔒",
         "title": "Pago Seguro",
         "description": "Procesamos todos los pagos a través de PayPal. Tu información financiera está completamente protegida."
       }
@@ -125,21 +125,21 @@
       {
         "name": "María González",
         "role": "Diseñadora Gráfica",
-        "avatar": "",
+        "avatar": "👤",
         "text": "Perfecto para generar mockups y conceptos visuales rápidamente. El precio de $1 por imagen es súper justo comparado con otras herramientas. Ya no necesito suscripciones caras mensuales.",
         "rating": 5
       },
       {
         "name": "Carlos Rodríguez",
         "role": "Emprendedor Digital",
-        "avatar": "",
+        "avatar": "👤",
         "text": "La libertad creativa sin restricciones es impresionante. Genero todo tipo de contenido para mis proyectos. Rápido, económico y de excelente calidad.",
         "rating": 5
       },
       {
         "name": "Ana López",
         "role": "Creadora de Contenido",
-        "avatar": "",
+        "avatar": "👤",
         "text": "Me gusta la libertad total y la cero censura que ofrece. Puedo crear cualquier tipo de imagen sin restricciones. Perfecto para mi trabajo.",
         "rating": 5
       }
@@ -171,42 +171,42 @@
       },
       {
         "question": "¿Qué tipo de imágenes puedo generar?",
-        "answer": "Puedes crear cualquier tipo de imagen: retratos realistas, paisajes, arte abstracto, ilustraciones anime, fotografía profesional, contenido +18 sin censura, y mucho más. Sin restricciones ni límites a diferencia de Gemini o ChatGPT."
+        "answer": "Puedes crear cualquier tipo de imagen: retratos realistas, paisajes, arte abstracto, ilustraciones anime, fotografía profesional, contenido +18 sin censura, y mucho más. Sin restricciones ni límites."
       },
       {
         "question": "¿Cuánto tiempo tarda en generarse una imagen?",
         "answer": "Entre 3 y 5 segundos en promedio. La generación es casi instantánea y la descarga es inmediata."
       },
       {
-        "question": "¿Por qué no tienen las restricciones de Gemini o ChatGPT?",
-        "answer": "Creemos en la libertad total y la privacidad. No imponemos políticas restrictivas. Eres libre de crear cualquier contenido que imagines, siempre que sea legal en tu jurisdicción."
+        "question": "¿Por qué sus políticas no son aburridas como otras plataformas?",
+        "answer": "Creemos en la libertad total y la privacidad. No imponemos políticas aburridas ni restricciones innecesarias. Eres libre de crear cualquier contenido que imagines, siempre que sea legal en tu jurisdicción."
       }
     ]
   },
   "trustBadges": {
     "items": [
       {
-        "icon": "",
+        "icon": "🔒",
         "text": "Pago seguro con PayPal"
       },
       {
-        "icon": "",
+        "icon": "✓",
         "text": "Sin suscripciones mensuales"
       },
       {
-        "icon": "",
+        "icon": "⚡",
         "text": "Generación en 3-5 segundos"
       },
       {
-        "icon": "",
+        "icon": "🎨",
         "text": "Sin censura ni restricciones"
       },
       {
-        "icon": "",
+        "icon": "💰",
         "text": "Solo $1 por imagen"
       },
       {
-        "icon": "",
+        "icon": "📱",
         "text": "Compatible móvil y escritorio"
       }
     ]
