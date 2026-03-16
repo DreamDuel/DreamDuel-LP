@@ -124,13 +124,6 @@ export default function Footer({ translations }: FooterProps) {
             viewport={{ once: true }}
           >
             <div className="flex items-center gap-3 mb-4">
-              <Image
-                src="/images/Logo/Logo.png"
-                alt="DreamDuel Logo"
-                width={64}
-                height={64}
-                className="w-16 h-16 object-contain"
-              />
               <span className="text-2xl font-bold text-gradient">DreamDuel</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
