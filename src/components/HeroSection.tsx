@@ -97,7 +97,7 @@ export default function HeroSection({ translations }: HeroSectionProps) {
               </p>
             </motion.div>
 
-            {/* Subtitle - $1 */}
+            {/* Subtitle - $3 */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

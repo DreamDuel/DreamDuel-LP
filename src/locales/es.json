@@ -9,7 +9,7 @@
   "hero": {
     "badge": "IA Generativa",
     "title": "Genera imágenes con IA",
-    "subtitleHighlight": "Solo $1 por imagen",
+    "subtitleHighlight": "Solo $3 por imagen",
     "subtitle": "Generador sin límites, sin censura, sin restricciones",
     "description": "Creemos en la libertad total y la privacidad absoluta. Genera cualquier tipo de imagen: arte, ilustraciones, fotografías, contenido +18. Sin políticas aburridas ni restricciones innecesarias.",
     "ctaPrimary": "Comenzar Ahora",
@@ -29,7 +29,7 @@
         "number": "2",
         "icon": "",
         "title": "La IA genera tu imagen",
-        "description": "Nuestra inteligencia artificial crea tu imagen en segundos. Cada generación cuesta solo $1.00 USD."
+        "description": "Nuestra inteligencia artificial crea tu imagen en segundos. Cada generación cuesta solo $3.00 USD."
       },
       {
         "number": "3",
@@ -70,7 +70,7 @@
     "items": [
       {
         "icon": "💵",
-        "title": "Solo $1 por Imagen",
+        "title": "Solo $3 por Imagen",
         "description": "Sin suscripciones mensuales, sin paquetes confusos, sin cargos ocultos. Pagas solo cuando generas una imagen."
       },
       {
@@ -104,7 +104,7 @@
     "badge": "PRECIO SIMPLE",
     "title": "Sin Suscripciones. Sin Sorpresas.",
     "subtitle": "Paga solo por lo que usas",
-    "price": "$1",
+    "price": "$3",
     "period": "por imagen",
     "freeHighlight": "SIN CENSURA NI RESTRICCIONES",
     "benefits": [
@@ -112,11 +112,11 @@
       "Sin límites ni censura",
       "Descarga inmediata",
       "No se almacena en servidores",
-      "Pago único de $1 por imagen",
+      "Pago único de $3 por imagen",
       "Procesamiento seguro con PayPal"
     ],
     "cta": "Comenzar Ahora",
-    "disclaimer": "Solo $1 por imagen. Sin compromisos."
+    "disclaimer": "Solo $3 por imagen. Sin compromisos."
   },
   "testimonials": {
     "title": "Lo que dicen nuestros usuarios",
@@ -126,7 +126,7 @@
         "name": "María González",
         "role": "Diseñadora Gráfica",
         "avatar": "👤",
-        "text": "Perfecto para generar mockups y conceptos visuales rápidamente. El precio de $1 por imagen es súper justo comparado con otras herramientas. Ya no necesito suscripciones caras mensuales.",
+        "text": "Perfecto para generar mockups y conceptos visuales rápidamente. El precio de $3 por imagen es súper justo comparado con otras herramientas. Ya no necesito suscripciones caras mensuales.",
         "rating": 5
       },
       {
@@ -151,7 +151,7 @@
     "items": [
       {
         "question": "¿Cuánto cuesta generar una imagen?",
-        "answer": "Cada imagen cuesta exactamente $1.00 USD. No hay paquetes, no hay suscripciones, solo $1 por imagen que generes."
+        "answer": "Cada imagen cuesta exactamente $3.00 USD. No hay paquetes, no hay suscripciones, solo $3 por imagen que generes."
       },
       {
         "question": "¿Cómo realizo el pago?",
@@ -163,7 +163,7 @@
       },
       {
         "question": "¿Cuántas imágenes puedo generar?",
-        "answer": "Puedes generar todas las imágenes que necesites. Cada una cuesta $1. No hay límites de uso."
+        "answer": "Puedes generar todas las imágenes que necesites. Cada una cuesta $3. No hay límites de uso."
       },
       {
         "question": "¿Qué pasa si no me gusta la imagen que genera la IA?",
@@ -203,7 +203,7 @@
       },
       {
         "icon": "💰",
-        "text": "Solo $1 por imagen"
+        "text": "Solo $3 por imagen"
       },
       {
         "icon": "📱",
@@ -215,7 +215,7 @@
     "title": "¿Listo para crear imágenes sin límites?",
     "subtitle": "Sin censura, sin restricciones, sin políticas aburridas",
     "cta": "Comenzar Ahora",
-    "disclaimer": "Solo $1 por imagen"
+    "disclaimer": "Solo $3 por imagen"
   },
   "terms": {
     "title": "Términos y Condiciones",
@@ -226,7 +226,7 @@
       },
       {
         "heading": "2. Descripción del Servicio",
-        "content": "DreamDuel es un servicio de generación de imágenes mediante inteligencia artificial. Los usuarios pagan $1 por cada imagen generada y la descargan directamente. No almacenamos las imágenes generadas en nuestros servidores. Nos reservamos el derecho de modificar o discontinuar el servicio en cualquier momento."
+        "content": "DreamDuel es un servicio de generación de imágenes mediante inteligencia artificial. Los usuarios pagan $3 por cada imagen generada y la descargan directamente. No almacenamos las imágenes generadas en nuestros servidores. Nos reservamos el derecho de modificar o discontinuar el servicio en cualquier momento."
       },
       {
         "heading": "3. Cuenta de Usuario",
