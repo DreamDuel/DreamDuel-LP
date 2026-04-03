@@ -105,7 +105,7 @@ export default function PricingSection({ translations }: PricingSectionProps) {
 
               {/* CTA Button */}
               <motion.a
-                href="/images"
+                href="https://app.dreamduel.lat"
                 whileHover={{ scale: 1.03, y: -2 }}
                 whileTap={{ scale: 0.98 }}
                 className="block w-full py-5 rounded-xl bg-primary-gradient text-white font-bold text-lg

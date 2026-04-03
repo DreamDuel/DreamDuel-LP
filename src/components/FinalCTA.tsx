@@ -45,7 +45,7 @@ export default function FinalCTA({ translations }: FinalCTAProps) {
 
           {/* CTA Button */}
           <motion.a
-            href="/images"
+            href="https://app.dreamduel.lat"
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-3 px-12 py-6 
