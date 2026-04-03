@@ -11,7 +11,7 @@
     "title": "Generate images with AI",
     "subtitleHighlight": "Only $3 per image",
     "subtitle": "Unlimited generator, no censorship, no restrictions",
-    "description": "We believe in total freedom and absolute privacy. Generate any type of image: art, illustrations, photography, +18 content. Without boring policies or unnecessary restrictions.",
+    "description": "We believe in total freedom and absolute privacy. Generate any type of image: art, illustrations, photography, +18 content. Without boring policies or unnecessary restrictions. 💡 IMPORTANT: PROMPTS must be entered 100% in English for better performance. We recommend using an AI chat or agent to translate or create them.",
     "ctaPrimary": "Get Started",
     "ctaSecondary": "See How It Works"
   },
@@ -23,7 +23,7 @@
         "number": "1",
         "icon": "",
         "title": "Describe your image",
-        "description": "Write what you want to create: portraits, landscapes, abstract art, illustrations, +18 content. Anything you imagine, no restrictions or censorship."
+        "description": "Write what you want to create: portraits, landscapes, abstract art, illustrations, +18 content. Anything you imagine, no restrictions or censorship. 💡 Note: PROMPTS must be in English (we recommend using an AI chat or agent to create or translate them)."
       },
       {
         "number": "2",

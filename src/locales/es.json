@@ -11,7 +11,7 @@
     "title": "Genera imágenes con IA",
     "subtitleHighlight": "Solo $3 por imagen",
     "subtitle": "Generador sin límites, sin censura, sin restricciones",
-    "description": "Creemos en la libertad total y la privacidad absoluta. Genera cualquier tipo de imagen: arte, ilustraciones, fotografías, contenido +18. Sin políticas aburridas ni restricciones innecesarias.",
+    "description": "Creemos en la libertad total y la privacidad absoluta. Genera cualquier tipo de imagen: arte, ilustraciones, fotografías, contenido +18. Sin políticas aburridas ni restricciones innecesarias. 💡 IMPORTANTE: Los PROMPTS deben ser ingresados 100% en inglés para un mejor funcionamiento. Te recomendamos usar un agente o chat de IA para traducirlos o crearlos.",
     "ctaPrimary": "Comenzar Ahora",
     "ctaSecondary": "Ver Cómo Funciona"
   },
@@ -23,7 +23,7 @@
         "number": "1",
         "icon": "",
         "title": "Describe tu imagen",
-        "description": "Escribe lo que quieres crear: retratos, paisajes, arte abstracto, ilustraciones, contenido +18. Cualquier cosa que imagines, sin restricciones ni censura."
+        "description": "Escribe lo que quieres crear: retratos, paisajes, arte abstracto, ilustraciones, contenido +18. Cualquier cosa que imagines, sin restricciones ni censura. 💡 Nota: Los PROMPTS deben ser en inglés (te recomendamos usar un agente o chat de IA para crearlos o traducirlos)."
       },
       {
         "number": "2",
