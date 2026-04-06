@@ -45,6 +45,7 @@ export default function Home() {
             subtitleHighlight: t('hero.subtitleHighlight'),
             subtitle: t('hero.subtitle'),
             description: t('hero.description'),
+            promptWarning: t('hero.promptWarning'),
             ctaPrimary: t('hero.ctaPrimary'),
             ctaSecondary: t('hero.ctaSecondary'),
           }}

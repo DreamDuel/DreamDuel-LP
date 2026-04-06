@@ -12,6 +12,7 @@
     "subtitleHighlight": "Only $3 per image",
     "subtitle": "Unlimited generator, no censorship, no restrictions",
     "description": "We believe in total freedom and absolute privacy. Generate any type of image: art, illustrations, photography, +18 content. Without boring policies or unnecessary restrictions. 💡 IMPORTANT: PROMPTS must be entered 100% in English for better performance. We recommend using an AI chat or agent to translate or create them.",
+    "promptWarning": "💡 IMPORTANT: For optimal results, we highly recommend crafting a detailed and descriptive PROMPT of no more than 150 to 200 words.",
     "ctaPrimary": "Get Started",
     "ctaSecondary": "See How It Works"
   },

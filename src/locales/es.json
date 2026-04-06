@@ -12,6 +12,7 @@
     "subtitleHighlight": "Solo $3 por imagen",
     "subtitle": "Generador sin límites, sin censura, sin restricciones",
     "description": "Creemos en la libertad total y la privacidad absoluta. Genera cualquier tipo de imagen: arte, ilustraciones, fotografías, contenido +18. Sin políticas aburridas ni restricciones innecesarias. 💡 IMPORTANTE: Los PROMPTS deben ser ingresados 100% en inglés para un mejor funcionamiento. Te recomendamos usar un agente o chat de IA para traducirlos o crearlos.",
+    "promptWarning": "💡 IMPORTANTE: Para maximizar la calidad de los resultados, le recomendamos redactar un PROMPT descriptivo y detallado, utilizando un máximo de 150 a 200 palabras.",
     "ctaPrimary": "Comenzar Ahora",
     "ctaSecondary": "Ver Cómo Funciona"
   },

@@ -11,6 +11,7 @@ interface HeroSectionProps {
     subtitleHighlight: string;
     subtitle: string;
     description: string;
+    promptWarning: string;
     ctaPrimary: string;
     ctaSecondary: string;
   };
@@ -116,6 +117,18 @@ export default function HeroSection({ translations }: HeroSectionProps) {
             >
               {translations.description}
             </motion.p>
+
+            {/* Prompt Warning Message (Important) */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.8, duration: 0.8 }}
+              className="mx-auto max-w-2xl p-4 md:p-5 rounded-xl bg-gradient-to-r from-red-500/10 via-orange-500/10 to-red-500/10 border border-red-500/30 shadow-lg shadow-red-500/10"
+            >
+              <p className="text-base md:text-lg font-bold text-red-400 leading-relaxed text-center">
+                {translations.promptWarning}
+              </p>
+            </motion.div>
 
             {/* CTA Buttons */}
             <motion.div
