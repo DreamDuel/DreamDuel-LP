@@ -97,7 +97,7 @@
       {
         "icon": "🔒",
         "title": "Pago Seguro",
-        "description": "Procesamos todos los pagos a través de PayPal. Tu información financiera está completamente protegida."
+        "description": "Procesamos todos los pagos de forma segura a través de Gumroad. Tu información financiera está completamente protegida."
       }
     ]
   },
@@ -114,7 +114,7 @@
       "Descarga inmediata",
       "No se almacena en servidores",
       "Pago único de $3 por imagen",
-      "Procesamiento seguro con PayPal"
+      "Pago seguro con Gumroad"
     ],
     "cta": "Comenzar Ahora",
     "disclaimer": "Solo $3 por imagen. Sin compromisos."
@@ -156,7 +156,7 @@
       },
       {
         "question": "¿Cómo realizo el pago?",
-        "answer": "Aceptamos pagos a través de PayPal. Es seguro, rápido y confiable. Puedes pagar con tu cuenta PayPal o con tarjeta de crédito a través de PayPal."
+        "answer": "Aceptamos pagos a través de Gumroad. Es seguro, rápido y confiable. Puedes pagar con tarjeta de crédito o PayPal a través de Gumroad."
       },
       {
         "question": "¿Guardan mis imágenes en sus servidores?",
@@ -188,7 +188,7 @@
     "items": [
       {
         "icon": "🔒",
-        "text": "Pago seguro con PayPal"
+        "text": "Pago seguro con Gumroad"
       },
       {
         "icon": "✓",
@@ -260,7 +260,7 @@
       },
       {
         "heading": "2. Uso de la Información",
-        "content": "Utilizamos tu información para proporcionar y mantener el servicio de generación de imágenes, procesar pagos a través de PayPal, enviarte confirmaciones de transacciones, mejorar nuestro servicio y proteger la seguridad de la plataforma. No utilizamos las imágenes que generas para ningún propósito ya que no las almacenamos."
+        "content": "Utilizamos tu información para proporcionar y mantener el servicio de generación de imágenes, procesar pagos a través de Gumroad, enviarte confirmaciones de transacciones, mejorar nuestro servicio y proteger la seguridad de la plataforma. No utilizamos las imágenes que generas para ningún propósito ya que no las almacenamos."
       },
       {
         "heading": "3. Compartir Información",

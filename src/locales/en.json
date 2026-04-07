@@ -97,7 +97,7 @@
       {
         "icon": "🔒",
         "title": "Secure Payment",
-        "description": "We process all payments through PayPal. Your financial information is completely protected."
+        "description": "We process all payments securely through Gumroad. Your financial information is completely protected."
       }
     ]
   },
@@ -114,7 +114,7 @@
       "Immediate download",
       "Not stored on servers",
       "Single $3 payment per image",
-      "Secure processing with PayPal"
+      "Secure payment with Gumroad"
     ],
     "cta": "Get Started",
     "disclaimer": "Only $3 per image. No commitments."
@@ -156,7 +156,7 @@
       },
       {
         "question": "How do I make payment?",
-        "answer": "We accept payments through PayPal. It's secure, fast, and reliable. You can pay with your PayPal account or with a credit card through PayPal."
+        "answer": "We accept payments through Gumroad. It's secure, fast, and reliable. You can pay with a credit card or PayPal through Gumroad."
       },
       {
         "question": "Do you store my images on your servers?",
@@ -188,7 +188,7 @@
     "items": [
       {
         "icon": "🔒",
-        "text": "100% secure payment with PayPal"
+        "text": "100% secure payment with Gumroad"
       },
       {
         "icon": "✓",
@@ -260,7 +260,7 @@
       },
       {
         "heading": "2. Use of Information",
-        "content": "We use your information to provide and maintain the image generation service, process payments through PayPal, send you transaction confirmations, improve our service, and protect the platform's security. We do not use the images you generate for any purpose as we do not store them."
+        "content": "We use your information to provide and maintain the image generation service, process payments through Gumroad, send you transaction confirmations, improve our service, and protect the platform's security. We do not use the images you generate for any purpose as we do not store them."
       },
       {
         "heading": "3. Sharing Information",

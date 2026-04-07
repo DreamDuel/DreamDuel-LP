@@ -1,12 +1,12 @@
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 import '../globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'DreamDuel - sin limites ni restricciones 100% libre',
   description: 'Creación de imágenes sin censura con IA. Solo describe personas, temática y contexto - la IA crea el resto en 30 segundos. Escenarios intensos y personales.',
-  keywords: 'fantasías, AI, historias visuales, IA generativa, NSFW, escenarios intensos, venganza, lujuria, romance oscuro',
+  keywords: 'fantasías, AI, IA generativa',
   authors: [{ name: 'DreamDuel' }],
   robots: 'noindex, nofollow', // Importante para contenido adulto
   icons: {
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
 
 export default async function LocaleLayout({
   children,
-  params: {locale}
+  params: { locale }
 }: {
   children: React.ReactNode;
-  params: {locale: string};
+  params: { locale: string };
 }) {
   const messages = await getMessages();
- 
+
   return (
     <html lang={locale} className="scroll-smooth">
       <body className="antialiased">
