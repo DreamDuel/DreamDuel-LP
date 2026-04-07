@@ -4,7 +4,7 @@ import '../globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'DreamDuel - Tus Fantasías, Realidad Tangible',
+  title: 'DreamDuel - sin limites ni restricciones 100% libre',
   description: 'Creación de imágenes sin censura con IA. Solo describe personas, temática y contexto - la IA crea el resto en 30 segundos. Escenarios intensos y personales.',
   keywords: 'fantasías, AI, historias visuales, IA generativa, NSFW, escenarios intensos, venganza, lujuria, romance oscuro',
   authors: [{ name: 'DreamDuel' }],
