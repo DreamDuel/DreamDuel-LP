@@ -6,10 +6,8 @@ import HeroSection from '@/components/HeroSection';
 import HowItWorks from '@/components/HowItWorks';
 import FeaturesSection from '@/components/FeaturesSection';
 import PricingSection from '@/components/PricingSection';
-import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import TrustBadges from '@/components/TrustBadges';
-import FinalCTA from '@/components/FinalCTA';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 import AnimatedBackground from '@/components/AnimatedBackground';
@@ -40,14 +38,10 @@ export default function Home() {
       <section id="inicio" className="pt-20">
         <HeroSection 
           translations={{
-            badge: t('hero.badge'),
             title: t('hero.title'),
             subtitleHighlight: t('hero.subtitleHighlight'),
             subtitle: t('hero.subtitle'),
-            description: t('hero.description'),
-            promptWarning: t('hero.promptWarning'),
             ctaPrimary: t('hero.ctaPrimary'),
-            ctaSecondary: t('hero.ctaSecondary'),
           }}
         />
       </section>
@@ -98,16 +92,6 @@ export default function Home() {
         />
       </section>
 
-      {/* Testimonials */}
-      <section id="testimonios">
-        <Testimonials 
-          translations={{
-            title: t('testimonials.title'),
-            subtitle: t('testimonials.subtitle'),
-            items: t.raw('testimonials.items'),
-          }}
-        />
-      </section>
 
       {/* FAQ */}
       <section id="faq">
@@ -120,15 +104,7 @@ export default function Home() {
         />
       </section>
 
-      {/* Final CTA */}
-      <FinalCTA 
-        translations={{
-          title: t('finalCta.title'),
-          subtitle: t('finalCta.subtitle'),
-          cta: t('finalCta.cta'),
-          disclaimer: t('finalCta.disclaimer'),
-        }}
-      />
+
 
       {/* Footer */}
       <Footer 

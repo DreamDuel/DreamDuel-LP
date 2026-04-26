@@ -43,20 +43,14 @@ export default function FinalCTA({ translations }: FinalCTAProps) {
             {translations.subtitle}
           </p>
 
-          {/* CTA Button */}
-          <motion.a
-            href="https://app.dreamduel.lat"
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center gap-3 px-12 py-6 
-                     bg-primary-gradient text-white font-bold text-lg rounded-2xl
-                     shadow-xl shadow-primary/40 hover:shadow-2xl hover:shadow-primary/60
-                     transition-all duration-300"
+          {/* Informational Banner instead of CTA Button */}
+          <div
+            className="inline-flex items-center gap-3 px-8 py-4 
+                     bg-white/5 border border-white/10 text-gray-300 font-medium text-lg rounded-2xl"
           >
-            <Sparkles className="w-6 h-6" />
-            {translations.cta}
-            <Sparkles className="w-6 h-6" />
-          </motion.a>
+            <Sparkles className="w-5 h-5 text-primary" />
+            <span>{translations.cta}</span>
+          </div>
 
           {/* Disclaimer */}
           <p className="text-gray-400 text-sm mt-6">

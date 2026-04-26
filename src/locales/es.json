@@ -7,14 +7,10 @@
     "faq": "FAQ"
   },
   "hero": {
-    "badge": "IA Generativa",
-    "title": "Genera imágenes con IA",
-    "subtitleHighlight": "Solo $3 por imagen",
-    "subtitle": "Generador sin límites, sin censura, sin restricciones",
-    "description": "Creemos en la libertad total y la privacidad absoluta. Genera cualquier tipo de imagen: arte, ilustraciones, fotografías, contenido +18. Sin políticas aburridas ni restricciones innecesarias. 💡 IMPORTANTE: Los PROMPTS deben ser ingresados 100% en inglés para un mejor funcionamiento. Te recomendamos usar un agente o chat de IA para traducirlos o crearlos.",
-    "promptWarning": "💡 IMPORTANTE: Para maximizar la calidad de los resultados, le recomendamos redactar un PROMPT descriptivo y detallado, utilizando un máximo de 150 a 200 palabras.",
-    "ctaPrimary": "Comenzar Ahora",
-    "ctaSecondary": "Ver Cómo Funciona"
+    "title": "Genera imágenes privadas con IA",
+    "subtitleHighlight": "Sin suscripción. Paga por uso.",
+    "subtitle": "Rápido, a medida y creado para ti.",
+    "ctaPrimary": "Pruébalo ahora"
   },
   "howItWorks": {
     "title": "Cómo Funciona",
@@ -66,13 +62,13 @@
     ]
   },
   "features": {
-    "title": "Todo lo que necesitas para crear",
-    "subtitle": "Simple, rápido y sin sorpresas",
+    "title": "Generación privada y personalizada de imágenes",
+    "subtitle": "Generación privada de pago por uso para imágenes de fantasía, anime y creadores.",
     "items": [
       {
         "icon": "💵",
-        "title": "Solo $3 por Imagen",
-        "description": "Sin suscripciones mensuales, sin paquetes confusos, sin cargos ocultos. Pagas solo cuando generas una imagen."
+        "title": "Paga solo cuando generas",
+        "description": "Sin suscripción. Paga exactamente por lo que usas, sin paquetes ni cuotas recurrentes ocultas."
       },
       {
         "icon": "🎨",
@@ -215,7 +211,7 @@
   "finalCta": {
     "title": "¿Listo para crear imágenes sin límites?",
     "subtitle": "Sin censura, sin restricciones, sin políticas aburridas",
-    "cta": "Comenzar Ahora",
+    "cta": "Sin suscripción. Paga exactamente por lo que usas.",
     "disclaimer": "Solo $3 por imagen"
   },
   "terms": {

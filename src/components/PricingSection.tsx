@@ -48,9 +48,9 @@ export default function PricingSection({ translations }: PricingSectionProps) {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="max-w-xl mx-auto"
+          className="max-w-xl mx-auto mt-4 px-2 sm:px-0"
         >
-          <div className="p-8 md:p-12 rounded-3xl bg-gradient-to-br from-primary/10 via-primary-glow/10 to-transparent 
+          <div className="p-6 sm:p-8 md:p-12 rounded-3xl bg-gradient-to-br from-primary/10 via-primary-glow/10 to-transparent 
                         border-2 border-primary/50 backdrop-blur-sm relative overflow-hidden
                         shadow-2xl shadow-primary/30">
             {/* Decorative glow effects */}
@@ -76,15 +76,15 @@ export default function PricingSection({ translations }: PricingSectionProps) {
               {/* Price */}
               <div className="text-center mb-8">
                 <div className="flex items-baseline justify-center gap-2 mb-2">
-                  <span className="text-6xl md:text-7xl font-bold text-white">
+                  <span className="text-5xl sm:text-6xl md:text-7xl font-bold text-white">
                     {translations.price}
                   </span>
                   <span className="text-xl text-gray-400">{translations.period}</span>
                 </div>
                 
                 {/* Free Highlight */}
-                <div className="inline-block mt-4 px-6 py-3 rounded-full bg-primary-gradient">
-                  <span className="text-base md:text-lg font-bold text-white">
+                <div className="inline-block mt-4 px-4 py-2 sm:px-6 sm:py-3 rounded-full bg-primary-gradient">
+                  <span className="text-sm sm:text-base md:text-lg font-bold text-white">
                     {translations.freeHighlight}
                   </span>
                 </div>
@@ -103,20 +103,7 @@ export default function PricingSection({ translations }: PricingSectionProps) {
                 ))}
               </ul>
 
-              {/* CTA Button */}
-              <motion.a
-                href="https://app.dreamduel.lat"
-                whileHover={{ scale: 1.03, y: -2 }}
-                whileTap={{ scale: 0.98 }}
-                className="block w-full py-5 rounded-xl bg-primary-gradient text-white font-bold text-lg
-                         shadow-lg shadow-primary/40 hover:shadow-xl hover:shadow-primary/60
-                         transition-all duration-300 text-center"
-              >
-                <span className="flex items-center justify-center gap-2">
-                  <Sparkles className="w-5 h-5" />
-                  {translations.cta}
-                </span>
-              </motion.a>
+
 
               {/* Disclaimer */}
               <p className="text-center text-sm text-gray-500 mt-4">

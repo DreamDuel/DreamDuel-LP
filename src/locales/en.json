@@ -7,14 +7,10 @@
     "faq": "FAQ"
   },
   "hero": {
-    "badge": "Generative AI",
-    "title": "Generate images with AI",
-    "subtitleHighlight": "Only $3 per image",
-    "subtitle": "Unlimited generator, no censorship, no restrictions",
-    "description": "We believe in total freedom and absolute privacy. Generate any type of image: art, illustrations, photography, +18 content. Without boring policies or unnecessary restrictions. 💡 IMPORTANT: PROMPTS must be entered 100% in English for better performance. We recommend using an AI chat or agent to translate or create them.",
-    "promptWarning": "💡 IMPORTANT: For optimal results, we highly recommend crafting a detailed and descriptive PROMPT of no more than 150 to 200 words.",
-    "ctaPrimary": "Get Started",
-    "ctaSecondary": "See How It Works"
+    "title": "Generate private AI images",
+    "subtitleHighlight": "No subscription. Pay per use.",
+    "subtitle": "Fast, custom, creator-friendly.",
+    "ctaPrimary": "Try it now"
   },
   "howItWorks": {
     "title": "How It Works",
@@ -66,13 +62,13 @@
     ]
   },
   "features": {
-    "title": "Everything you need to create",
-    "subtitle": "Simple, fast, and no surprises",
+    "title": "Private custom image generation",
+    "subtitle": "Private pay-per-use image generation for custom fantasy, anime and creator visuals.",
     "items": [
       {
         "icon": "💵",
-        "title": "Only $3 per Image",
-        "description": "No monthly subscriptions, no confusing packages, no hidden charges. You only pay when you generate an image."
+        "title": "Pay only when you generate",
+        "description": "No subscription. Pay exactly for what you use, without any hidden packages or recurring fees."
       },
       {
         "icon": "🎨",
@@ -215,7 +211,7 @@
   "finalCta": {
     "title": "Ready to create unlimited images?",
     "subtitle": "No censorship, no restrictions, no boring policies",
-    "cta": "Get Started",
+    "cta": "No subscription. Pay exactly for what you use.",
     "disclaimer": "Only $3 per image"
   },
   "terms": {

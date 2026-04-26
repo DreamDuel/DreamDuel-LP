@@ -6,14 +6,10 @@ import { useState } from 'react';
 
 interface HeroSectionProps {
   translations: {
-    badge: string;
     title: string;
     subtitleHighlight: string;
     subtitle: string;
-    description: string;
-    promptWarning: string;
     ctaPrimary: string;
-    ctaSecondary: string;
   };
 }
 
@@ -67,91 +63,57 @@ export default function HeroSection({ translations }: HeroSectionProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
             >
-              {/* Badge */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 
-                         border border-primary/30 mb-6"
-              >
-                <Sparkles className="w-4 h-4 text-primary" />
-                <span className="text-sm text-primary font-medium">{translations.badge}</span>
-              </motion.div>
-
               {/* Title */}
-              <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 pb-2 text-gradient">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-4 sm:mb-6 pb-2 text-gradient">
                 {translations.title}
               </h1>
             </motion.div>
 
-            {/* Subtitle Highlight - FREE */}
+            {/* Subtitle Highlight - No subscription */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.3, duration: 0.6 }}
-              className="inline-block px-8 py-4 rounded-2xl bg-gradient-to-r from-primary/20 to-primary-glow/20
-                       border-2 border-primary shadow-xl shadow-primary/30"
+              className="inline-block px-6 py-3 sm:px-8 sm:py-4 rounded-xl sm:rounded-2xl bg-gradient-to-r from-primary/20 to-primary-glow/20
+                       border-2 border-primary shadow-xl shadow-primary/30 mb-2"
             >
-              <p className="text-xl md:text-2xl lg:text-3xl font-bold text-white">
+              <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">
                 {translations.subtitleHighlight}
               </p>
             </motion.div>
 
-            {/* Subtitle - $3 */}
+            {/* Subtitle - Fast, custom, creator-friendly */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
-              className="text-lg md:text-xl lg:text-2xl text-gray-300 font-semibold"
+              className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 font-medium mb-8 sm:mb-10"
             >
               {translations.subtitle}
             </motion.p>
-
-            {/* Description */}
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.7, duration: 0.8 }}
-              className="text-base md:text-lg text-gray-400 leading-relaxed max-w-2xl mx-auto"
-            >
-              {translations.description}
-            </motion.p>
-
-            {/* Prompt Warning Message (Important) */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.8, duration: 0.8 }}
-              className="mx-auto max-w-2xl p-4 md:p-5 rounded-xl bg-gradient-to-r from-red-500/10 via-orange-500/10 to-red-500/10 border border-red-500/30 shadow-lg shadow-red-500/10"
-            >
-              <p className="text-base md:text-lg font-bold text-red-400 leading-relaxed text-center">
-                {translations.promptWarning}
-              </p>
-            </motion.div>
 
             {/* CTA Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.9, duration: 0.8 }}
-              className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4"
+              transition={{ delay: 0.7, duration: 0.8 }}
+              className="flex justify-center pt-6"
             >
-              {/* Primary CTA */}
+              {/* Primary CTA Only */}
               <motion.a
                 href="https://app.dreamduel.lat"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onHoverStart={() => setHoveredBtn(true)}
                 onHoverEnd={() => setHoveredBtn(false)}
-                className="group relative px-8 md:px-10 py-4 md:py-5 rounded-xl bg-primary-gradient text-white font-bold text-lg md:text-xl
-                         shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-all duration-300
+                className="group relative w-full sm:w-auto px-6 py-4 sm:px-10 sm:py-5 rounded-2xl bg-primary-gradient text-white font-extrabold text-lg sm:text-xl
+                         shadow-[0_0_40px_rgba(var(--primary-rgb),0.5)] hover:shadow-[0_0_60px_rgba(var(--primary-rgb),0.8)] transition-all duration-300
                          overflow-hidden"
               >
-                <span className="relative z-10 flex items-center justify-center gap-2">
-                  <Sparkles className="w-5 h-5" />
+                <span className="relative z-10 flex items-center justify-center gap-3">
+                  <Sparkles className="w-6 h-6" />
                   {translations.ctaPrimary}
-                  <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${hoveredBtn ? 'translate-x-1' : ''}`} />
+                  <ArrowRight className={`w-6 h-6 transition-transform duration-300 ${hoveredBtn ? 'translate-x-2' : ''}`} />
                 </span>
                 <motion.div
                   className="absolute inset-0 bg-white/20"
@@ -160,22 +122,37 @@ export default function HeroSection({ translations }: HeroSectionProps) {
                   transition={{ duration: 0.6 }}
                 />
               </motion.a>
-
-              {/* Secondary CTA */}
-              <motion.button
-                onClick={() => scrollToSection('#comofunciona')}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="px-8 md:px-10 py-4 md:py-5 rounded-xl 
-                         border-2 border-white/20 text-white font-semibold text-lg
-                         hover:border-primary/50 hover:bg-white/5
-                         transition-all duration-300"
-              >
-                {translations.ctaSecondary}
-              </motion.button>
             </motion.div>
           </div>
         </div>
+
+        {/* 3 High Quality Image Grid Examples Here */}
+        <motion.div 
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.0, duration: 0.8 }}
+          className="mt-16 sm:mt-24 flex md:grid md:grid-cols-3 overflow-x-auto snap-x snap-mandatory gap-4 sm:gap-6 pb-8 max-w-6xl mx-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+        >
+          {[1, 2, 3].map((item) => (
+            <div key={item} className="relative flex-none w-[80%] sm:w-[60%] md:w-auto h-auto aspect-[3/4] snap-center rounded-2xl overflow-hidden shadow-2xl border border-white/10 group">
+              <div className="absolute inset-0 bg-gray-900 animate-pulse" />
+              {/* Fallback gradients if no images are provided, portraying premium anime/hyperrealistic framing */}
+              <div className={`absolute inset-0 bg-gradient-to-br ${
+                item === 1 ? 'from-purple-900/40 to-blue-900/80' : 
+                item === 2 ? 'from-pink-900/40 to-orange-900/80' : 
+                'from-emerald-900/40 to-teal-900/80'
+              }`} />
+              <div className="absolute inset-0 backdrop-blur-[2px] group-hover:backdrop-blur-0 transition-all duration-500" />
+              <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-black/50 backdrop-blur-md border border-white/10 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
+                <div className="flex items-center gap-2 text-primary font-medium text-sm mb-1">
+                  <Sparkles className="w-4 h-4" />
+                  <span>AI Generated</span>
+                </div>
+                <p className="text-white text-xs opacity-80">Private custom image generation</p>
+              </div>
+            </div>
+          ))}
+        </motion.div>
       </div>
 
       {/* Scroll indicator */}
